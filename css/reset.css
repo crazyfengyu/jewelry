@@ -1,0 +1,57 @@
+@charset "utf-8";
+/*初始化代码*/
+
+h1, h2, h3, h4, h5, h6, dl, dd, ol, ul, li, p, table, form, input, textarea, option, th, td, img, body, button {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+input {
+    border: 0;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.w {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
