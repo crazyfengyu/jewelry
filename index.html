@@ -1,12 +1,174 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>峰羽-礼物</title>
+    <title>峰羽_CRAZYFENGYU</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index/index.css">
 </head>
+
 <body>
-    
+    <div class="common_header"></div>
+
+    <div class="index_banner">
+        <ul class="index_banner_nav" id="index_banner_nav">
+            <li class="selected"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul class="index_banner_content" id="index_banner_content">
+            <li class="selected">
+                <a href="#">
+                    <img src="./images/index/banner_01.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/index/banner_02.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/index/banner_03.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/index/banner_04.jpg" alt="">
+                </a>
+            </li>
+        </ul>
+        <div class="index_banner_left"> &lt; </div>
+        <div class="index_banner_right"> &gt; </div>
+    </div>
+
+    <div class="index_body_suggest">
+        <div class="w">
+            <img src="./images/index/body_01.jpg" alt="">
+            <div class="index_body_suggest_content">
+                <h3>一生只为一人定制</h3>
+                <p class="p1">LIFE IS ONLY FOR ONE PERSON</p>
+                <p>CRAZYFENGYU（峰羽），秉承：一生只为一人定制的创始理念。以非凡品质，融合情感与时尚设计，</p>
+                <p>创作出FORMYROSE独特风格，成为珠宝品牌中拥有真爱文化的代表。</p>
+            </div>
+            <ul class="index_body_suggest_img clearfix">
+                <li>
+                    <div class="include">
+                        <img src="./images/index/body_ul_01.jpg" alt="">
+                    </div>
+                    <h3>挑选礼物</h3>
+                    <p class="p1">OVE GIFT</p>
+                    <p>挑选您的礼物</p>
+                </li>
+                <li>
+                    <div class="include">
+                        <img src="./images/index/body_ul_02.jpg" alt="">
+                    </div>
+                    <h3>签署证书</h3>
+                    <p class="p1">VE CUSTOM</p>
+                    <p>签署真爱承诺，锁定一生挚爱</p>
+                </li>
+                <li class="last_li">
+                    <div class="include">
+                        <img src="./images/index/body_ul_03.jpg" alt="">
+                    </div>
+                    <h3>真爱礼盒</h3>
+                    <p class="p1">LOVE BOX</p>
+                    <p>真爱之礼，送给最爱的你</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="index_box_design">
+        <div class="w">
+            <h3>经典设计</h3>
+            <p>CHOICE OF MIND</p>
+            <ul class="index_design_list clearfix">
+                <li>
+                    <img src="./images/index/design_01.png" alt="">
+                    <p>海豚湾之恋</p>
+                </li>
+                <li>
+                    <img src="./images/index/design_02.png" alt="">
+                    <p>遇见幸福</p>
+                </li>
+                <li>
+                    <img src="./images/index/design_03.png" alt="">
+                    <p>遇见幸福唯一真爱</p>
+                </li>
+                <li>
+                    <img src="./images/index/design_04.png" alt="">
+                    <p>KISS</p>
+                </li>
+                <li>
+                    <img src="./images/index/design_05.png" alt="">
+                    <p>时尚男士机械腕表</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="common_footer"></div>
 </body>
+<script src="./js/jquery/jquery-1.10.1.min.js"></script>
+<script src="./js/common/requireCommon.js"></script>
+<script>
+    //导航图注册事件
+    var index = 0;
+
+    var timeId = bannerShow(index);
+
+    $("#index_banner_nav li").mouseenter(function () {
+        clearInterval(timeId)
+        index = $(this).index();
+        $(this).addClass("selected").siblings().removeClass("selected");
+        $("#index_banner_content li").eq(index).addClass("selected").siblings().removeClass("selected");
+    }).mouseleave(function () {
+        timeId = bannerShow(index);
+    });
+
+    $(".index_banner").mouseenter(function () {
+        clearInterval(timeId)
+        $(".index_banner_left").toggle(300);
+        $(".index_banner_right").toggle(300);
+    }).mouseleave(function () {
+        timeId = bannerShow(index);
+    });
+
+    // $(".index_banner_left").click(function () {
+    //     clearInterval(timeId);
+    //     index = index- 2;
+    //     timeId = bannerShow(index)
+    // });
+
+
+
+    function bannerShow(index) {
+        clearInterval(timeId);
+        timeId = setInterval(function () {
+            index++;
+            if (index >= ($("#index_banner_nav li").length)) {
+                index = 0;
+            }
+            if (index < 0) {
+                index = $("#index_banner_nav li").length - 1;
+            }
+            $("#index_banner_nav li").eq(index).addClass("selected").siblings().removeClass("selected");
+            $("#index_banner_content li").eq(index).addClass("selected").siblings().removeClass("selected");
+        }, 1500);
+        return timeId;
+    }
+
+</script>
+
 </html>

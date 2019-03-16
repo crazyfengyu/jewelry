@@ -1,0 +1,66 @@
+.footer {
+  width: 100%;
+  height: 430px;
+  background-color: #151518; }
+  .footer .footer_top {
+    height: 399px;
+    border-top: 1px solid #151518; }
+    .footer .footer_top .footer_top_left {
+      width: 280px; }
+      .footer .footer_top .footer_top_left .footer_top_left_top {
+        height: 149px;
+        line-height: 149px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 24px;
+        border-bottom: 1px solid #403933; }
+      .footer .footer_top .footer_top_left .footer_top_left_bottom {
+        text-align: center;
+        height: 249px;
+        border-bottom: 1px solid #403933; }
+        .footer .footer_top .footer_top_left .footer_top_left_bottom img {
+          margin-top: 55px;
+          width: 130px;
+          height: 130px; }
+        .footer .footer_top .footer_top_left .footer_top_left_bottom p {
+          font-size: 18px;
+          color: #ffffff;
+          margin-top: 5px; }
+    .footer .footer_top .footer_top_center {
+      width: 625px;
+      border-right: 1px solid #403933;
+      border-left: 1px solid #403933;
+      padding-top: 35px;
+      height: 364px;
+      border-bottom: 1px solid #403933; }
+      .footer .footer_top .footer_top_center dl {
+        float: left;
+        width: 170px;
+        margin: 0 18px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 14px;
+        height: 170px;
+        margin-bottom: 50px; }
+        .footer .footer_top .footer_top_center dl a:hover {
+          color: #CCCCCC; }
+        .footer .footer_top .footer_top_center dl dt {
+          height: 50px;
+          line-height: 50px; }
+        .footer .footer_top .footer_top_center dl dd {
+          color: #797979;
+          height: 30px;
+          line-height: 30px; }
+      .footer .footer_top .footer_top_center p {
+        color: #ffffff;
+        line-height: 50px;
+        text-align: center; }
+  .footer .footer_bottom {
+    height: 28px;
+    line-height: 28px;
+    color: #ffffff; }
+    .footer .footer_bottom p {
+      margin-left: 150px;
+      font-size: 14px; }
+
+/*# sourceMappingURL=footer.css.map */
