@@ -114,6 +114,47 @@
     </div>
 
 
+    <div class="index_series">
+        <div class="w">
+            <div class="index_series_top clearfix">
+                <div class="index_series_top_left fl">
+                    <img src="./images/index/series_01.jpg" alt="">
+                    <div class="index_series_top_left_content">
+                        <h3>彩宝系列</h3>
+                        <p class="p1">COLOURFUL GEM</p>
+                        <p>宝石</p>
+                        <p>赋予作品独特、个性与灵魂</p>
+                        <p> PATRON SAINT IN GREEK MYTHOLOGY</p>
+                        <a href="#">探索系列</a>
+                    </div>
+                </div>
+                <img src="./images/index/series_02.jpg" alt="">
+            </div>
+            <div class="index_series_center">
+                <div class="index_series_center_left fl">
+                    <img src="./images/index/series_03.jpg" alt="">
+                    <img src="./images/index/series_04.jpg" alt="">
+                </div>
+                <img src="./images/index/series_05.jpg" alt="">
+            </div>
+            <ul class="index_series_bottom clearfix">
+                <li>
+                    <img src="./images/index/series_06.jpg" alt="">
+                    <p>钻戒系列</p>
+                </li>
+                <li>
+                    <img src="./images/index/series_07.jpg" alt="">
+                    <p>遇见系列</p>
+                </li>
+                <li class="last_li">
+                    <img src="./images/index/series_08.jpg" alt="">
+                    <p>对戒系列</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
 
 
 
@@ -121,8 +162,14 @@
     <div class="common_footer"></div>
 </body>
 <script src="./js/jquery/jquery-1.10.1.min.js"></script>
-<script src="./js/common/requireCommon.js"></script>
 <script>
+    //引入公共的头部
+    $(".common_header").load("./html/common/header.html");
+    //引入公共的底部
+    $(".common_footer").load("./html/common/footer.html");
+
+
+
     //导航图注册事件
     var index = 0;
 

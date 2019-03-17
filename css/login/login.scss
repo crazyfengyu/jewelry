@@ -1,0 +1,6 @@
+$width:100%;
+
+@mixin vertical($value){
+    height: $value;
+    line-height: $value;
+}
