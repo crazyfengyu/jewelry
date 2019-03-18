@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>CRAZYFENGYU</title>
+    <link rel="stylesheet" href="../../css/reset.css"/>
+    <link rel="stylesheet" href="../../css/common/header.css"/>
+    <link rel="stylesheet" href="../../css/common/footer.css"/>
+</head>
+<body>
+    <div class="common_header"></div>
+
+    <div class="detail_body">
+
+    </div>
+
+    <div class="common_footer"></div>
+</body>
+<script src="../../js/jquery/jquery-1.10.1.min.js"></script>
+<script src="../../js/common/config.js"></script>
+<script>
+    //引入公共的部分
+    $(".common_header").load("../common/header.html", function () {
+        $.getScript("../../js/common/header.js");
+    });
+    $(".common_footer").load("../common/footer.html");
+</script>
+</html>

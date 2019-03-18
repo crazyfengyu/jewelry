@@ -1,3 +1,77 @@
-
+.login_body {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding-top: 30px;
+  padding-bottom: 34px; }
+  .login_body .w .login_body_left {
+    width: 730px;
+    height: 720px;
+    background-color: #fff;
+    text-align: center;
+    margin-right: 15px; }
+    .login_body .w .login_body_left h3 {
+      font-size: 24px;
+      color: #000000;
+      margin-top: 75px;
+      height: 35px;
+      line-height: 35px; }
+    .login_body .w .login_body_left .p1 {
+      font-size: 12px;
+      color: #c8bac1;
+      height: 25px;
+      line-height: 25px;
+      margin-bottom: 40px; }
+    .login_body .w .login_body_left p {
+      height: 27px;
+      line-height: 27px; }
+    .login_body .w .login_body_left img {
+      width: 524px;
+      height: 306px;
+      margin-top: 70px; }
+  .login_body .w .login_body_right {
+    width: 320px;
+    height: 640px;
+    padding: 40px 60px;
+    background-color: #fff; }
+    .login_body .w .login_body_right h3 {
+      font-size: 28px;
+      color: #000000;
+      border-bottom: 1px solid #cccccc;
+      height: 36px;
+      line-height: 36px; }
+      .login_body .w .login_body_right h3 a {
+        font-size: 14px; }
+    .login_body .w .login_body_right input {
+      width: 280px;
+      height: 38px;
+      border: 1px solid #000000;
+      margin-top: 30px;
+      padding-left: 40px; }
+    .login_body .w .login_body_right #username {
+      background: url(../../images/login_username.png) no-repeat 12px center; }
+    .login_body .w .login_body_right #userpwd {
+      background: url(../../images/login_password.png) no-repeat 12px center; }
+    .login_body .w .login_body_right .login_remember {
+      margin-top: 25px;
+      height: 42px;
+      line-height: 42px;
+      font-size: 12px;
+      color: #999999; }
+      .login_body .w .login_body_right .login_remember #remember_me {
+        width: 12px;
+        height: 12px;
+        margin: 0; }
+      .login_body .w .login_body_right .login_remember .p1 {
+        cursor: pointer; }
+    .login_body .w .login_body_right button {
+      width: 100%;
+      height: 38px;
+      line-height: 38px;
+      background-color: #000000;
+      border: 0;
+      color: #fff;
+      font-size: 16px;
+      text-align: center;
+      cursor: pointer; }
 
 /*# sourceMappingURL=login.css.map */

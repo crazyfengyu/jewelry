@@ -8,166 +8,432 @@
     <title>峰羽_CRAZYFENGYU</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/index/index.css">
+    <link rel="stylesheet" href="./css/common/header.css">
+    <link rel="stylesheet" href="./css/common/footer.css">
 </head>
 
 <body>
-    <div class="common_header"></div>
-
-    <div class="index_banner">
-        <ul class="index_banner_nav" id="index_banner_nav">
-            <li class="selected"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <ul class="index_banner_content" id="index_banner_content">
-            <li class="selected">
-                <a href="#">
-                    <img src="./images/index/banner_01.jpg" alt="">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="./images/index/banner_02.jpg" alt="">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="./images/index/banner_03.jpg" alt="">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="./images/index/banner_04.jpg" alt="">
-                </a>
-            </li>
-        </ul>
-        <div class="index_banner_left"> &lt; </div>
-        <div class="index_banner_right"> &gt; </div>
-    </div>
-
-    <div class="index_body_suggest">
+<div class="common_header">
+    <div class="header">
         <div class="w">
-            <img src="./images/index/body_01.jpg" alt="">
-            <div class="index_body_suggest_content">
-                <h3>一生只为一人定制</h3>
-                <p class="p1">LIFE IS ONLY FOR ONE PERSON</p>
-                <p>CRAZYFENGYU（峰羽），秉承：一生只为一人定制的创始理念。以非凡品质，融合情感与时尚设计，</p>
-                <p>创作出FORMYROSE独特风格，成为珠宝品牌中拥有真爱文化的代表。</p>
+            <h3 class="header_phone fl">152-7115-8888</h3>
+
+            <h1 class="logo">峰羽一生只为一人定制</h1>
+            <ul class="header_ul fr">
+                <li class="header_one">
+                    <a href="./html/login/login.html" id="header_username_login">登录</a>
+                    <span>/</span>
+                    <a href="./html/login/register.html" id="header_username_register">注册</a>
+                </li>
+                <li class="header_two">
+                    <a href="#">在线客服</a>
+                </li>
+                <li class="header_three">
+                    <a href="#">购物车</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="header_nav">
+        <div class="w">
+            <ul class="header_nav_content">
+                <li>
+                    <a href="./index.html">首页</a>
+                </li>
+                <li class="header_li_gift" id="gift">
+                    <a href="#">礼物</a>
+
+                    <div class="header_li_gift_show clearfix">
+                        <div class="header_li_gift_show_left fl">
+                            <dl class="gift_list_01">
+                                <dt>
+                                    类型
+                                </dt>
+                                <dd>
+                                    <a href="./html/goods/handseries.html">手链</a>
+                                </dd>
+                                <dd>
+                                    <a href="./html/goods/necklace.html">项链</a>
+                                </dd>
+                                <dd>
+                                    <a href="./html/goods/earbob.html">耳坠</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">戒指</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">腕表</a>
+                                </dd>
+                            </dl>
+                            <dl class="gift_list_02" id="gift_list02">
+                                <dt>
+                                    系列
+                                </dt>
+                                <dd>
+                                    <a href="#">海豚系列</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">遇见系列</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">F系列</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">彩宝系列</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">更多作品</a>
+                                </dd>
+                            </dl>
+                            <dl class="gift_list_03">
+                                <dt>
+                                    价格
+                                </dt>
+                                <dd>
+                                    <a href="#">2000以下</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">2000-4000</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">4000-8000</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">8000-12000</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">12000以上</a>
+                                </dd>
+                            </dl>
+                            <div class="header_more fl">
+                                <a href="#">查看全部>></a>
+                            </div>
+                        </div>
+                        <div class="header_li_gift_show_right fr">
+                            <ul id="gift_show_img">
+                                <li class="selected">
+                                    <img src="./images/common/nav_01.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="./images/common/nav_02.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="./images/common/nav_03.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="./images/common/nav_04.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="./images/common/nav_05.jpg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li id="ring">
+                    <a href="#">婚戒</a>
+
+                    <div class="header_li_gift_show1 clearfix">
+                        <div class="header_li_gift_show1_left fl">
+                            <dl class="gift_list_01" id="gift_list01">
+                                <dt>
+                                    婚戒
+                                </dt>
+                                <dd>
+                                    <a href="#">钻戒系列</a>
+                                </dd>
+                                <dd>
+                                    <a href="#">对戒系列</a>
+                                </dd>
+                            </dl>
+                            <div class="header_more fl">
+                                <a href="#">查看全部>></a>
+                            </div>
+                        </div>
+                        <div class="header_li_gift_show1_right fr">
+                            <ul id="ring_img">
+                                <li class="selected">
+                                    <img src="./images/common/ring_01.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="./images/common/ring_02.jpg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li id="custom_li">
+                    <a href="#">真爱定制</a>
+
+                    <div class="header_li_gift_show2 clearfix">
+                        <div class="header_li_gift_show2_left fl" style="height:400px">
+                            <dl class="gift_list_01">
+                                <dt>
+                                    真爱定制
+                                </dt>
+                                <dd>
+                                    <p>真爱定制
+                                        一句告白、一件信物、一生承诺。
+                                    </p>
+                                </dd>
+                                <dd>
+                                    <p>与CRAZYFENGYU（峰羽）一起见证动人的爱情故事</p>
+                                </dd>
+                            </dl>
+                            <div class="header_more fl">
+                                <a href="#">开始定制>></a>
+                            </div>
+                        </div>
+                        <div class="header_li_gift_show2_right fr">
+                            <ul>
+                                <li class="selected">
+                                    <img src="./images/common/custom.jpg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="header_nav_content_lastli">
+                    <a href="#">峰羽世界</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="index_banner">
+    <ul class="index_banner_nav" id="index_banner_nav">
+        <li class="selected"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <ul class="index_banner_content" id="index_banner_content">
+        <li class="selected">
+            <a href="#">
+                <img src="./images/index/banner_01.jpg" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="./images/index/banner_02.jpg" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="./images/index/banner_03.jpg" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="./images/index/banner_04.jpg" alt="">
+            </a>
+        </li>
+    </ul>
+    <div class="index_banner_left"> &lt; </div>
+    <div class="index_banner_right"> &gt; </div>
+</div>
+
+<div class="index_body_suggest">
+    <div class="w">
+        <img src="./images/index/body_01.jpg" alt="">
+
+        <div class="index_body_suggest_content">
+            <h3>一生只为一人定制</h3>
+
+            <p class="p1">LIFE IS ONLY FOR ONE PERSON</p>
+
+            <p>CRAZYFENGYU（峰羽），秉承：一生只为一人定制的创始理念。以非凡品质，融合情感与时尚设计，</p>
+
+            <p>创作出FORMYROSE独特风格，成为珠宝品牌中拥有真爱文化的代表。</p>
+        </div>
+        <ul class="index_body_suggest_img clearfix">
+            <li>
+                <div class="include">
+                    <img src="./images/index/body_ul_01.jpg" alt="">
+                </div>
+                <h3>挑选礼物</h3>
+
+                <p class="p1">OVE GIFT</p>
+
+                <p>挑选您的礼物</p>
+            </li>
+            <li>
+                <div class="include">
+                    <img src="./images/index/body_ul_02.jpg" alt="">
+                </div>
+                <h3>签署证书</h3>
+
+                <p class="p1">VE CUSTOM</p>
+
+                <p>签署真爱承诺，锁定一生挚爱</p>
+            </li>
+            <li class="last_li">
+                <div class="include">
+                    <img src="./images/index/body_ul_03.jpg" alt="">
+                </div>
+                <h3>真爱礼盒</h3>
+
+                <p class="p1">LOVE BOX</p>
+
+                <p>真爱之礼，送给最爱的你</p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="index_box_design">
+    <div class="w">
+        <h3>经典设计</h3>
+
+        <p>CHOICE OF MIND</p>
+        <ul class="index_design_list clearfix">
+            <li>
+                <img src="./images/index/design_01.png" alt="">
+
+                <p>海豚湾之恋</p>
+            </li>
+            <li>
+                <img src="./images/index/design_02.png" alt="">
+
+                <p>遇见幸福</p>
+            </li>
+            <li>
+                <img src="./images/index/design_03.png" alt="">
+
+                <p>遇见幸福唯一真爱</p>
+            </li>
+            <li>
+                <img src="./images/index/design_04.png" alt="">
+
+                <p>KISS</p>
+            </li>
+            <li>
+                <img src="./images/index/design_05.png" alt="">
+
+                <p>时尚男士机械腕表</p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="index_series">
+    <div class="w">
+        <div class="index_series_top clearfix">
+            <div class="index_series_top_left fl">
+                <img src="./images/index/series_01.jpg" alt="">
+
+                <div class="index_series_top_left_content">
+                    <h3>彩宝系列</h3>
+
+                    <p class="p1">COLOURFUL GEM</p>
+
+                    <p>宝石</p>
+
+                    <p>赋予作品独特、个性与灵魂</p>
+
+                    <p> PATRON SAINT IN GREEK MYTHOLOGY</p>
+                    <a href="#">探索系列</a>
+                </div>
             </div>
-            <ul class="index_body_suggest_img clearfix">
-                <li>
-                    <div class="include">
-                        <img src="./images/index/body_ul_01.jpg" alt="">
-                    </div>
-                    <h3>挑选礼物</h3>
-                    <p class="p1">OVE GIFT</p>
-                    <p>挑选您的礼物</p>
-                </li>
-                <li>
-                    <div class="include">
-                        <img src="./images/index/body_ul_02.jpg" alt="">
-                    </div>
-                    <h3>签署证书</h3>
-                    <p class="p1">VE CUSTOM</p>
-                    <p>签署真爱承诺，锁定一生挚爱</p>
-                </li>
-                <li class="last_li">
-                    <div class="include">
-                        <img src="./images/index/body_ul_03.jpg" alt="">
-                    </div>
-                    <h3>真爱礼盒</h3>
-                    <p class="p1">LOVE BOX</p>
-                    <p>真爱之礼，送给最爱的你</p>
-                </li>
-            </ul>
+            <img src="./images/index/series_02.jpg" alt="">
         </div>
-    </div>
-
-    <div class="index_box_design">
-        <div class="w">
-            <h3>经典设计</h3>
-            <p>CHOICE OF MIND</p>
-            <ul class="index_design_list clearfix">
-                <li>
-                    <img src="./images/index/design_01.png" alt="">
-                    <p>海豚湾之恋</p>
-                </li>
-                <li>
-                    <img src="./images/index/design_02.png" alt="">
-                    <p>遇见幸福</p>
-                </li>
-                <li>
-                    <img src="./images/index/design_03.png" alt="">
-                    <p>遇见幸福唯一真爱</p>
-                </li>
-                <li>
-                    <img src="./images/index/design_04.png" alt="">
-                    <p>KISS</p>
-                </li>
-                <li>
-                    <img src="./images/index/design_05.png" alt="">
-                    <p>时尚男士机械腕表</p>
-                </li>
-            </ul>
+        <div class="index_series_center">
+            <div class="index_series_center_left fl">
+                <img src="./images/index/series_03.jpg" alt="">
+                <img src="./images/index/series_04.jpg" alt="">
+            </div>
+            <img src="./images/index/series_05.jpg" alt="">
         </div>
+        <ul class="index_series_bottom clearfix">
+            <li>
+                <img src="./images/index/series_06.jpg" alt="">
+
+                <p>钻戒系列</p>
+            </li>
+            <li>
+                <img src="./images/index/series_07.jpg" alt="">
+
+                <p>遇见系列</p>
+            </li>
+            <li class="last_li">
+                <img src="./images/index/series_08.jpg" alt="">
+
+                <p>对戒系列</p>
+            </li>
+        </ul>
     </div>
+</div>
 
 
-    <div class="index_series">
+<div class="common_footer">
+    <div class="footer">
         <div class="w">
-            <div class="index_series_top clearfix">
-                <div class="index_series_top_left fl">
-                    <img src="./images/index/series_01.jpg" alt="">
-                    <div class="index_series_top_left_content">
-                        <h3>彩宝系列</h3>
-                        <p class="p1">COLOURFUL GEM</p>
-                        <p>宝石</p>
-                        <p>赋予作品独特、个性与灵魂</p>
-                        <p> PATRON SAINT IN GREEK MYTHOLOGY</p>
-                        <a href="#">探索系列</a>
+            <div class="footer_top clearfix">
+                <div class="footer_top_left fl">
+                    <p class="footer_top_left_top">CRAZYFENGYU</p>
+
+                    <div class="footer_top_left_bottom">
+                        <img src="./images/common/mypay_03.png" alt="">
+
+                        <p>微信扫码付款</p>
                     </div>
                 </div>
-                <img src="./images/index/series_02.jpg" alt="">
-            </div>
-            <div class="index_series_center">
-                <div class="index_series_center_left fl">
-                    <img src="./images/index/series_03.jpg" alt="">
-                    <img src="./images/index/series_04.jpg" alt="">
+                <div class="footer_top_center fl">
+                    <dl class="clearfix">
+                        <dt><a href="#">关于我们</a></dt>
+                        <dd><a href="#">品牌声明</a></dd>
+                        <dd><a href="#">权威认证</a></dd>
+                        <dd><a href="#">联系我们</a></dd>
+                        <dd><a href="#">隐私声明</a></dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt><a href="#">购买指南</a></dt>
+                        <dd><a href="#">购买流程</a></dd>
+                        <dd><a href="#">支付方式</a></dd>
+                        <dd><a href="#">配送流程</a></dd>
+                        <dd><a href="#">常见问题</a></dd>
+                    </dl>
+                    <dl class="clearfix">
+                        <dt><a href="#">售后服务</a></dt>
+                        <dd><a href="#">退货流程</a></dd>
+                        <dd><a href="#">服务内容</a></dd>
+                        <dd><a href="#">专业保障</a></dd>
+                        <dd><a href="#">七天退换</a></dd>
+                    </dl>
+
+                    <p>版权信息</p>
+
+                    <p>CRAZYFENGYU</p>
                 </div>
-                <img src="./images/index/series_05.jpg" alt="">
+                <div class="footer_top_left fl">
+                    <p class="footer_top_left_top">CRAZYFENGYU</p>
+
+                    <div class="footer_top_left_bottom">
+                        <img src="./images/common/mypay1_03.png" alt="">
+
+                        <p>支付宝扫码付款</p>
+                    </div>
+                </div>
             </div>
-            <ul class="index_series_bottom clearfix">
-                <li>
-                    <img src="./images/index/series_06.jpg" alt="">
-                    <p>钻戒系列</p>
-                </li>
-                <li>
-                    <img src="./images/index/series_07.jpg" alt="">
-                    <p>遇见系列</p>
-                </li>
-                <li class="last_li">
-                    <img src="./images/index/series_08.jpg" alt="">
-                    <p>对戒系列</p>
-                </li>
-            </ul>
+            <div class="footer_bottom">
+                <p>版权所有：CRAZYFENGYU</p>
+            </div>
         </div>
     </div>
-
-
-
-
-
-
-    <div class="common_footer"></div>
+</div>
 </body>
 <script src="./js/jquery/jquery-1.10.1.min.js"></script>
+<script src="./js/common/config.js"></script>
+<script src="./js/common/header.js"></script>
 <script>
     //引入公共的头部
-    $(".common_header").load("./html/common/header.html");
+    //    $(".common_header").load("./html/common/header.html",function(){
+    //           $.getScript("./js/common/header.js");
+    //    });
     //引入公共的底部
-    $(".common_footer").load("./html/common/footer.html");
-
+    //    $(".common_footer").load("./html/common/footer.html");
 
 
     //导航图注册事件
@@ -176,7 +442,7 @@
     var timeId = bannerShow(index);
 
     $("#index_banner_nav li").mouseenter(function () {
-        clearInterval(timeId)
+        clearInterval(timeId);
         index = $(this).index();
         $(this).addClass("selected").siblings().removeClass("selected");
         $("#index_banner_content li").eq(index).addClass("selected").siblings().removeClass("selected");
@@ -199,7 +465,6 @@
     // });
 
 
-
     function bannerShow(index) {
         clearInterval(timeId);
         timeId = setInterval(function () {
@@ -215,6 +480,44 @@
         }, 1500);
         return timeId;
     }
+
+    //点击登录，跳转到登录界面
+    $(document).on("click", "#header_username_login", function () {
+        setCookie("backUrl", window.location.href, 7);
+        window.location.href = "./html/login/login.html";
+    });
+
+    //点击注册，跳转到注册界面
+    $(document).on("click", "#header_username_register", function () {
+        setCookie("backUrl", window.location.href, 7);
+        window.location.href = "./html/login/register.html";
+    });
+
+    //登录成功到达这个页面显示用户名
+    if (getCookie("userid")) {
+        $.ajax({
+            type: "get",
+            url: "./php/index/selectuser.php",
+            data: {
+                userid: getCookie("userid")
+            },
+            dataType: "json",
+            success: function (obj) {
+                showUser(obj);
+            }
+        });
+    }
+
+    //封装函数显示用户信息
+    function showUser(obj) {
+        $(".header_one").html("<a href='#'>" + obj["username"] + "</a><a href='#' class='exit'> /注销 </a>")
+    }
+
+    //为注销按钮绑定事件
+    $(document).on("click", ".exit", function () {
+        setCookie("userid", "", -7);
+        window.location.reload();
+    });
 
 </script>
 

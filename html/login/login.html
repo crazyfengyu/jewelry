@@ -8,27 +8,84 @@
     <title>用户中心_CRAZYFENGYU</title>
     <link rel="stylesheet" href="../../css/reset.css">
     <link rel="stylesheet" href="../../css/login/login.css">
+    <link rel="stylesheet" href="../../css/common/header.css">
+    <link rel="stylesheet" href="../../css/common/footer.css">
 </head>
 
 <body>
-    <div class="common_header"></div>
+<div class="common_header"></div>
 
-    <div class="login_body">
-        <div class="login_body_left">
+<div class="login_body">
+    <div class="w clearfix">
+        <div class="login_body_left fl">
+            <h3>真爱承诺证书</h3>
 
+            <p class="p1">LOVE CUSTOM</p>
+
+            <p>CRAZYFENGYU（峰羽），秉承：一生只为一人定制的创始理念。</p>
+
+            <p>阁下购买时需填写真爱承诺证书，爱人姓名填写后将存入FORMYROSE真爱档案并锁定，</p>
+
+            <p>一生不得更改。</p>
+            <img src="../../images/login.jpg" alt="">
         </div>
-        <div class="login_body_right">
+        <div class="login_body_right fl">
+            <h3>登录<a href="#" class="fr">立即注册</a></h3>
+            <input type="text" id="username" placeholder="请输入您的手机号码、用户名或者邮箱">
+            <input type="password" id="userpwd" placeholder="请输入您的密码">
 
+            <div class="login_remember">
+                <input type="checkbox" id="remember_me" name="remember_me">
+                <label for="remember_me">记住我</label>
+                <a href="#" class="fr">忘记密码?</a>
+            </div>
+            <button id="login">立即登录</button>
         </div>
     </div>
+</div>
 
-    <div class="common_footer"></div>
+<div class="common_footer"></div>
 </body>
 <script src="../../js/jquery/jquery-1.10.1.min.js"></script>
+<script src="../../js/common/config.js"></script>
 <script>
     //引入公共的头部和底部
-    $(".common_header").load("../common/header.html");
+    $(".common_header").load("../common/header.html", function () {
+        $.getScript("../../js/common/header.js");
+    });
     $(".common_footer").load("../common/footer.html");
+
+    //点击登录判断用户名和密码是否正确
+    $("#login").click(function () {
+        //获取用户名和密码
+        var username = $("#username").val();
+        var userpwd = $("#userpwd").val();
+        //调用ajax判断数据
+        $.ajax({
+            type: "get",
+            url: "../../php/login/login.php",
+            data: {
+                username: username,
+                userpwd: userpwd
+            },
+            dataType: "json",
+            success: function (obj) {
+                successTip(obj);
+            }
+        });
+    });
+
+    //封装函数，判断是否登录成功
+    function successTip(obj) {
+        if (obj["code"] == 1) {
+            setCookie("userid", obj["userid"], 7);
+            window.location.href = getCookie("backUrl");
+        } else {
+            setCookie("tip", obj["msg"], 7);
+            setCookie("backUrl", window.location.href, 7);
+            window.location.href = "./retry.html";
+        }
+    }
 </script>
 
 </html>

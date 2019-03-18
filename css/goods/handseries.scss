@@ -1,0 +1,73 @@
+$width: 100%;
+
+@mixin vertical($value) {
+  height: $value;
+  line-height: $value;
+}
+
+.handseries_body {
+  width: $width;
+  background-color: #f0f0f0;
+  .w {
+    position: relative;
+    .handseries_body_title {
+      border-top: 1px solid #CCCCCC;
+      @include vertical(49px);
+      font-size: 14px;
+    }
+    .img {
+      width: 1200px;
+      height: 450px;
+    }
+    .handseries_body_content {
+      width: $width;
+      margin-top: 30px;
+      padding-bottom: 150px;
+      li {
+        width: 290px;
+        height: 370px;
+        float: left;
+        text-align: center;
+        background-color: #fff;
+        margin: 0 10px 10px 0;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+        font-size: 14px;
+        img {
+          position: absolute;
+          width: 290px;
+          height: 290px;
+          left: 0;
+          top: 0;
+          transition: all 1s;
+        }
+
+        a {
+          display: inline-block;
+          @include vertical(60px);
+          margin-top: 290px;
+        }
+
+        a:hover {
+          color: #CCCCCC;
+        }
+      }
+      li:hover img {
+        position: absolute;
+        top: -10px;
+      }
+
+    }
+  }
+  .p1 {
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    margin: auto;
+  }
+}
+

@@ -1,0 +1,55 @@
+.handseries_body {
+  width: 100%;
+  background-color: #f0f0f0; }
+  .handseries_body .w {
+    position: relative; }
+    .handseries_body .w .handseries_body_title {
+      border-top: 1px solid #CCCCCC;
+      height: 49px;
+      line-height: 49px;
+      font-size: 14px; }
+    .handseries_body .w .img {
+      width: 1200px;
+      height: 450px; }
+    .handseries_body .w .handseries_body_content {
+      width: 100%;
+      margin-top: 30px;
+      padding-bottom: 150px; }
+      .handseries_body .w .handseries_body_content li {
+        width: 290px;
+        height: 370px;
+        float: left;
+        text-align: center;
+        background-color: #fff;
+        margin: 0 10px 10px 0;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+        font-size: 14px; }
+        .handseries_body .w .handseries_body_content li img {
+          position: absolute;
+          width: 290px;
+          height: 290px;
+          left: 0;
+          top: 0;
+          transition: all 1s; }
+        .handseries_body .w .handseries_body_content li a {
+          display: inline-block;
+          height: 60px;
+          line-height: 60px;
+          margin-top: 290px; }
+        .handseries_body .w .handseries_body_content li a:hover {
+          color: #CCCCCC; }
+      .handseries_body .w .handseries_body_content li:hover img {
+        position: absolute;
+        top: -10px; }
+  .handseries_body .p1 {
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    margin: auto; }
+
+/*# sourceMappingURL=handseries.css.map */
