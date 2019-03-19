@@ -1,0 +1,102 @@
+.shoppingcar_body {
+  border-top: 1px solid #CCCCCC;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding-bottom: 50px; }
+  .shoppingcar_body .w .shop_p1 {
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px; }
+  .shoppingcar_body .w .shoppingcar_body_title {
+    width: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px; }
+    .shoppingcar_body .w .shoppingcar_body_title li {
+      width: 16.66667%;
+      float: left;
+      text-align: center; }
+    .shoppingcar_body .w .shoppingcar_body_title .first_li {
+      width: 100px;
+      text-align: center; }
+    .shoppingcar_body .w .shoppingcar_body_title .second_li {
+      width: 300px; }
+    .shoppingcar_body .w .shoppingcar_body_title .three_li, .shoppingcar_body .w .shoppingcar_body_title .four_li, .shoppingcar_body .w .shoppingcar_body_title .five_li, .shoppingcar_body .w .shoppingcar_body_title .six_li {
+      width: 200px; }
+  .shoppingcar_body .w .shoppingcar_body_body ul {
+    width: 100%;
+    text-align: center;
+    height: 145px;
+    border-bottom: 1px solid #CCCCCC; }
+    .shoppingcar_body .w .shoppingcar_body_body ul li {
+      float: left;
+      height: 145px;
+      line-height: 145px;
+      background-color: #fff; }
+      .shoppingcar_body .w .shoppingcar_body_body ul li .goodsimg {
+        width: 145px;
+        height: 145px; }
+    .shoppingcar_body .w .shoppingcar_body_body ul .first_li {
+      width: 100px;
+      text-align: center; }
+      .shoppingcar_body .w .shoppingcar_body_body ul .first_li img {
+        margin-top: 70px;
+        cursor: pointer; }
+    .shoppingcar_body .w .shoppingcar_body_body ul .second_li {
+      width: 300px;
+      cursor: pointer; }
+    .shoppingcar_body .w .shoppingcar_body_body ul .three_li, .shoppingcar_body .w .shoppingcar_body_body ul .four_li, .shoppingcar_body .w .shoppingcar_body_body ul .five_li, .shoppingcar_body .w .shoppingcar_body_body ul .six_li {
+      width: 200px; }
+    .shoppingcar_body .w .shoppingcar_body_body ul .four_li {
+      font-size: 0; }
+      .shoppingcar_body .w .shoppingcar_body_body ul .four_li button {
+        width: 20px;
+        height: 20px;
+        background-color: #000000;
+        color: #FFFFFF;
+        border: 0;
+        vertical-align: middle;
+        cursor: pointer; }
+      .shoppingcar_body .w .shoppingcar_body_body ul .four_li span {
+        display: inline-block;
+        vertical-align: middle;
+        width: 40px;
+        height: 18px;
+        font-size: 12px;
+        border: 1px solid #000000;
+        height: 18px;
+        line-height: 18px; }
+  .shoppingcar_body .w .shoppingcar_body_bottom {
+    margin-top: 20px;
+    height: 52px;
+    line-height: 52px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #666666; }
+    .shoppingcar_body .w .shoppingcar_body_bottom li {
+      float: left; }
+    .shoppingcar_body .w .shoppingcar_body_bottom .first_li {
+      width: 740px; }
+      .shoppingcar_body .w .shoppingcar_body_bottom .first_li button {
+        background-color: #fff;
+        border: 0;
+        margin-left: 30px;
+        cursor: pointer;
+        height: 50px;
+        outline: none; }
+    .shoppingcar_body .w .shoppingcar_body_bottom .second_li {
+      width: 280px;
+      color: #000; }
+    .shoppingcar_body .w .shoppingcar_body_bottom .three_li button {
+      width: 180px;
+      height: 50px;
+      background-color: #000;
+      color: #FFFFFF;
+      text-align: center;
+      border: 0;
+      cursor: pointer; }
+
+/*# sourceMappingURL=shoppingcar.css.map */

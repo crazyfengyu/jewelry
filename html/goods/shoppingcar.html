@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>购物流程_CRAZYFENGYU</title>
+    <link rel="stylesheet" href="../../css/reset.css"/>
+    <link rel="stylesheet" href="../../css/common/header.css"/>
+    <link rel="stylesheet" href="../../css/common/footer.css"/>
+    <link rel="stylesheet" href="../../css/common/page.css"/>
+    <link rel="stylesheet" href="../../css/goods/shoppingcar.css"/>
+</head>
+<body>
+<div class="common_header"></div>
+
+<div class="shoppingcar_body">
+    <div class="w">
+        <p class="shop_p1">当前位置: <a href="../../index.html">首页</a> > 购物流程</p>
+        <ul class="shoppingcar_body_title clearfix">
+            <li class="first_li">编辑</li>
+            <li class="second_li">商品名称</li>
+            <li class="three_li">属性</li>
+            <li class="four_li">购买数量</li>
+            <li class="five_li">单价</li>
+            <li class="six_li">小计</li>
+        </ul>
+        <div class="shoppingcar_body_body">
+            <!--<ul>-->
+            <!--<li class="first_li">-->
+            <!--<img src="../../images/shoppingcar_del.png" alt=""/>-->
+            <!--</li>-->
+            <!--<li class="second_li">-->
+            <!--<img src="../../images/goods/adjy.png" alt="" class="goodsimg fl"/>-->
+
+            <!--<p class="fl">遇见信服</p>-->
+            <!--</li>-->
+            <!--<li class="three_li">-->
+            <!--<p>定制砖石</p>-->
+            <!--</li>-->
+            <!--<li class="four_li">-->
+            <!--<button>-</button>-->
+            <!--<span>12</span>-->
+            <!--<button>+</button>-->
+            <!--</li>-->
+            <!--<li class="five_li">-->
+            <!--<p>8900</p>-->
+            <!--</li>-->
+            <!--<li class="six_li">-->
+            <!--<p>8900</p>-->
+            <!--</li>-->
+            <!--</ul>-->
+        </div>
+        <ul class="shoppingcar_body_bottom">
+            <li class="first_li">
+                <button>清空购物车</button>
+            </li>
+            <li class="second_li">
+                <p>商品应付金额：￥:</p>
+            </li>
+            <li class="three_li">
+                <button>提交订单</button>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="common_footer"></div>
+</body>
+<script src="../../js/jquery/jquery-1.10.1.min.js"></script>
+<script src="../../js/common/config.js"></script>
+<script src="../../js/common/page.js"></script>
+<script>
+    $(".common_header").load("../common/header.html", function () {
+        $.getScript("../../js/common/header.js");
+    });
+
+    $(".common_footer").load("../common/footer.html");
+
+    //判断用户是否登录
+    if (getCookie("userid")) {
+        //登录显示用户购物车
+        //调用ajax获取用户数据
+        $.ajax({
+            type: "get",
+            url: "../../php/goods/getusershoppingcar.php",
+            data: {
+                userid: getCookie("userid")
+            },
+            dataType: "json",
+            success: function (obj) {
+                successGet(obj);
+            }
+        });
+
+    } else {
+        //没有登录
+        setCookie("backUrl", window.location.href, 7);
+        window.location.href = "../login/login.html";
+    }
+
+    function successGet(obj) {
+        $(".shoppingcar_body_body").html("");
+        var price = 0;
+        for (var i = 0; i < obj.length; i++) {
+            var item = obj[i];
+            $("<ul><li class='first_li'><img src='../../images/shoppingcar_del.png' alt=''/></li><li class='second_li'> <img src='../../images/goods/" + item["goodsimg"] + ".png' alt='' class='goodsimg fl'/> <p class='fl'>" + item["goodsname"] + "</p></li><li class='three_li'><p>" + item["goodsstyle"] + ":" + item["goodssize"] + "</p></li><li class='four_li'><button class='del'>-</button><span>" + item["num"] + "</span><button class='add'>+</button></li><li class='five_li'<p>" + item["goodsprice"] + ".00</p></li><li class='six_li'<p>" + item["goodsprice"] * item["num"] + ".00</p></li></ul>").appendTo($(".shoppingcar_body_body"));
+            price += item["goodsprice"] * item["num"];
+        }
+        $(".shoppingcar_body_bottom .second_li p").html("商品应付金额：￥:" + price);
+    }
+
+    $(document).on("click", ".shoppingcar_body_body .first_li img", function () {
+        alert(111);
+    });
+</script>
+</html>

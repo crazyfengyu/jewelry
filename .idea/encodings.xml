@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/php/goods/buygoods.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/detail.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/getgoodsb2000count.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php/goods/getgoodsbobcount.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/getgoodschoiseriescount.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/getgoodsdolphinseriescount.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/getgoodsfseriescount.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php/goods/getgoodslacecount.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/getgoodsmeetseriescount.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/getgoodsmoreseriescount.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/getgoodsringcount.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/getgoodswatchcount.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/getusershoppingcar.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/selectgoodsb2000.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/selectgoodsbob.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/selectgoodschoiseries.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/selectgoodsdolphinseries.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/selectgoodsfseries.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php/goods/selectgoodsinfo.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php/goods/selectgoosbob.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php/goods/selectgooslace.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/selectgoodslace.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/selectgoodsmeetseries.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/selectgoodsmoreseries.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/selectgoodsring.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/goods/selectgoodswatch.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php/index/selectuser.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php/login/login.php" charset="UTF-8" />
   </component>

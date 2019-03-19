@@ -2,7 +2,7 @@
 <html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
-    <title>耳坠系列_分类_CRAZYFENGYU</title>
+    <title>腕表系列_分类_CRAZYFENGYU</title>
     <link rel="stylesheet" href="../../css/reset.css"/>
     <link rel="stylesheet" href="../../css/common/header.css"/>
     <link rel="stylesheet" href="../../css/common/footer.css"/>
@@ -14,7 +14,8 @@
 
 <div class="handseries_body">
     <div class="w">
-        <p class="handseries_body_title">当前位置: <a href="../../index.html">首页</a> > <a href="./b2000.html?num1=0&num2=9999999999">分类</a>  > 耳坠系列</p>
+        <p class="handseries_body_title">当前位置: <a href="../../index.html">首页</a> > <a href="./b2000.html?num1=0&num2=9999999999">分类</a> > 腕表系列</p>
+        <img src="../../images/goods/watch.jpg" alt=""/>
         <ul class="handseries_body_content clearfix">
             <!--<li>
                 <img src="../../images/goods/wyza.png" alt=""/>
@@ -47,7 +48,7 @@
     function getData(pageIndex, showNum) {
         $.ajax({
             type: "get",
-            url: "../../php/goods/selectgoodsbob.php",
+            url: "../../php/goods/selectgoodswatch.php",
             data: {
                 jumpData: (pageIndex - 1) * showNum,
                 showData: showNum
@@ -74,7 +75,7 @@
     function showGoodsCount() {
         $.ajax({
             type: "get",
-            url: "../../php/goods/getgoodsbobcount.php",
+            url: "../../php/goods/getgoodswatchcount.php",
             dataType: "json",
             success: function (obj) {
                 showNumPage(obj);

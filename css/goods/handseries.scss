@@ -19,6 +19,38 @@ $width: 100%;
       width: 1200px;
       height: 450px;
     }
+
+    .detail {
+      text-align: center;
+      position: relative;
+      h3 {
+        margin-top: 70px;
+        font-size: 26px;
+        margin-bottom: 30px;
+      }
+      .p2 {
+        font-size: 12px;
+        color: #CCCCCC;
+        position: absolute;
+        top: 35px;
+        background-color: #f0f0f0;
+        z-index: 9999;
+        width: 200px;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+      .line {
+        width: $width;
+        position: absolute;
+        border-bottom: 1px solid #CCCCCC;
+        top: 48px;
+      }
+      p {
+        @include vertical(25px);
+        font-size: 14px;
+      }
+    }
     .handseries_body_content {
       width: $width;
       margin-top: 30px;

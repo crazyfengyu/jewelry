@@ -1,0 +1,134 @@
+$width: 100%;
+
+@mixin vertical($value) {
+  height: $value;
+  line-height: $value;
+}
+
+.shoppingcar_body {
+  border-top: 1px solid #CCCCCC;
+  width: $width;
+  background-color: #f0f0f0;
+  padding-bottom: 50px;
+  .w {
+    .shop_p1 {
+      @include vertical(50px);
+      font-size: 14px;
+    }
+    .shoppingcar_body_title {
+      width: $width;
+      background-color: #000000;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+      font-size: 14px;
+      @include vertical(50px);
+      li {
+        width: $width/6;
+        float: left;
+        text-align: center;
+      }
+      .first_li {
+        width: 100px;
+        text-align: center;
+      }
+
+      .second_li {
+        width: 300px;
+      }
+      .three_li, .four_li, .five_li, .six_li {
+        width: 200px;
+      }
+    }
+    .shoppingcar_body_body {
+      ul {
+        width: $width;
+        text-align: center;
+        height: 145px;
+        border-bottom: 1px solid #CCCCCC;
+        li {
+          float: left;
+          @include vertical(145px);
+          background-color: #fff;
+          .goodsimg {
+            width: 145px;
+            height: 145px;
+          }
+        }
+        .first_li {
+          width: 100px;
+          text-align: center;
+          img {
+            margin-top: 70px;
+            cursor: pointer;
+          }
+        }
+        .second_li {
+          width: 300px;
+          cursor: pointer;
+        }
+
+        .three_li, .four_li, .five_li, .six_li {
+          width: 200px;
+        }
+
+        .four_li {
+          font-size: 0;
+          button {
+            width: 20px;
+            height: 20px;
+            background-color: #000000;
+            color: #FFFFFF;
+            border: 0;
+            vertical-align: middle;
+            cursor: pointer;
+          }
+          span {
+            display: inline-block;
+            vertical-align: middle;
+            width: 40px;
+            height: 18px;
+            font-size: 12px;
+            border: 1px solid #000000;
+            @include vertical(18px);
+          }
+        }
+      }
+    }
+    .shoppingcar_body_bottom {
+      margin-top: 20px;
+      @include vertical(52px);
+      background-color: #fff;
+      font-size: 14px;
+      color: #666666;
+      li {
+        float: left;
+      }
+      .first_li {
+        width: 740px;
+        button {
+          background-color: #fff;
+          border: 0;
+          margin-left:30px;
+          cursor: pointer;
+          height: 50px;
+          outline: none;
+        }
+      }
+      .second_li {
+        width: 280px;
+        color: #000;
+      }
+      .three_li {
+        button {
+          width: 180px;
+          height: 50px;
+          background-color: #000;
+          color: #FFFFFF;
+          text-align: center;
+          border: 0;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -48,3 +48,58 @@ function getCookie(key) {
         return "";
     }
 }
+
+
+/**
+ * 兼容获取向上卷曲的距离
+ * @returns {number}
+ */
+
+function getScrollTop() {
+    return document.documentElement.scrollTop || document.body.scrollTop;
+}
+
+/**
+ * 兼容获取向左卷曲的距离
+ * @returns {number}
+ */
+
+function getScrollLeft() {
+    return document.documentElement.scrollLeft || document.body.scrollLeft;
+}
+
+/**
+ * 兼容获取屏幕的可视宽度
+ * @returns {number}
+ */
+
+function getClientWidth() {
+    return document.documentElement.clientWidth || document.body.clientWidth;
+}
+
+/**
+ * 兼容获取屏幕的可视高度
+ * @returns {number}
+ */
+
+function getClientHeight() {
+    return document.documentElement.clientHeight || document.body.clientHeight;
+}
+
+/**
+ * 兼容获取页面的宽度
+ * @returns {number}
+ */
+
+function getAllWidth() {
+    return document.documentElement.scrollWidth || document.body.scrollWidth;
+}
+
+/**
+ * 兼容获取页面的高度
+ * @returns {number}
+ */
+
+function getAllHeight() {
+    return document.documentElement.scrollHeight || document.body.scrollHeight;
+}

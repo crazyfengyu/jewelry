@@ -14,7 +14,7 @@
 
 <div class="handseries_body">
     <div class="w">
-        <p class="handseries_body_title">当前位置: 首页 > 分类 > 项链系列</p>
+        <p class="handseries_body_title">当前位置: <a href="../../index.html">首页</a> > <a href="./b2000.html?num1=0&num2=9999999999">分类</a>  > 项链系列</p>
         <img src="../../images/goods/necklace.jpg" alt=""/>
         <ul class="handseries_body_content clearfix">
             <!--<li>
@@ -48,7 +48,7 @@
     function getData(pageIndex, showNum) {
         $.ajax({
             type: "get",
-            url: "../../php/goods/selectgooslace.php",
+            url: "../../php/goods/selectgoodslace.php",
             data: {
                 jumpData: (pageIndex - 1) * showNum,
                 showData: showNum

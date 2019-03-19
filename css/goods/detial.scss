@@ -1,0 +1,203 @@
+$width: 100%;
+@mixin vertical($value) {
+  height: $value;
+  line-height: $value;
+}
+
+.detail_body {
+  width: $width;
+  margin-bottom: 30px;
+  .w {
+    .dh {
+      border-top: 1px solid #CCCCCC;
+      @include vertical(50px);
+      font-size: 14px;
+    }
+
+    .detail_body_content {
+      width: $width;
+      .detail_body_centent_left {
+        width: 480px;
+        height: 480px;
+        margin-right: 240px;
+        position: relative;
+        border: 1px solid #f0f0f0;
+        img {
+          width: 480px;
+          height: 480px;
+        }
+        #small_shadow {
+          width: 240px;
+          height: 240px;
+          position: absolute;
+          left: 0;
+          top: 0;
+          background-color: rgba(0, 0, 0, .1);
+          display: none;
+        }
+        #big_shadow {
+          position: absolute;
+          width: 480px;
+          height: 480px;
+          border: 1px solid #f0f0f0;
+          background-color: #fff;
+          overflow: hidden;
+          display: none;
+          left: 480px;
+          top: 0;
+          img {
+            width: 960px;
+            height: 960px;
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+        }
+      }
+      .detail_body_centent_right {
+        width: 365px;
+        h3 {
+          font-size: 26px;
+          @include vertical(36px);
+        }
+
+        p {
+          font-size: 14px;
+          @include vertical(38px);
+        }
+
+        .xl {
+          font-size: 14px;
+          color: #c8bac1;
+          border-bottom: 1px solid #CCCCCC;
+          @include vertical(26px);
+          padding-bottom: 17px;
+        }
+
+        .weight {
+          @include vertical(40px);
+          border-bottom: 1px solid #CCCCCC;
+          font-size: 14px;
+        }
+
+        .style {
+          @include vertical(40px);
+          font-size: 14px;
+          select {
+            margin-right: 20px;
+          }
+        }
+
+        .price {
+          font-size: 30px;
+          margin-top: 20px;
+          @include vertical(65px);
+        }
+
+        button {
+          width: $width;
+          @include vertical(30px);
+          border: 1px solid #000000;
+          font-size: 12px;
+          text-align: center;
+          background-color: #fff;
+          cursor: pointer;
+          margin-top: 20px;
+        }
+
+        #add_buy {
+          background-color: #000000;
+          color: #FFFFFF;
+        }
+
+        .right_express {
+          width: $width;
+          margin-top: 28px;
+          border-bottom: 1px solid #CCCCCC;
+          p {
+            @include vertical(67px);
+            float: left;
+            margin-right: 20px;
+            padding-left: 18px;
+          }
+          .right_express_01 {
+            background: url("../../images/detail_01.png") no-repeat left center;
+          }
+          .right_express_02 {
+            background: url("../../images/detail_02.png") no-repeat left center;
+          }
+          .right_express_03 {
+            background: url("../../images/detail_03.png") no-repeat left center;
+            margin-right: 0;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+.tip_box {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 99999999;
+  background-color: rgba(0, 0, 0, .6);
+  display: none;
+  .detial_tip {
+    width: 500px;
+    height: 270px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #fff;
+    h3 {
+      @include vertical(45px);
+      background-color: #000000;
+      color: #FFFFFF;
+      font-size: 16px;
+      padding-left: 20px;
+      span {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        float: right;
+        background-color: #fff;
+        margin-top: 10px;
+        text-align: center;
+        @include vertical(20px);
+        color: #000;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+    }
+    .tip_detail_body {
+      img {
+        width: 250px;
+        height: 170px;
+      }
+      p {
+        margin-left: 20px;
+        @include vertical(170px);
+      }
+    }
+    .succ_cz {
+      text-align: center;
+      button {
+        width: 100px;
+        @include vertical(30px);
+        background-color: #000000;
+        border: 0;
+        color: #FFFFFF;
+        text-align: center;
+
+      }
+    }
+  }
+}

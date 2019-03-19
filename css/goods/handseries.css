@@ -11,6 +11,33 @@
     .handseries_body .w .img {
       width: 1200px;
       height: 450px; }
+    .handseries_body .w .detail {
+      text-align: center;
+      position: relative; }
+      .handseries_body .w .detail h3 {
+        margin-top: 70px;
+        font-size: 26px;
+        margin-bottom: 30px; }
+      .handseries_body .w .detail .p2 {
+        font-size: 12px;
+        color: #CCCCCC;
+        position: absolute;
+        top: 35px;
+        background-color: #f0f0f0;
+        z-index: 9999;
+        width: 200px;
+        left: 0;
+        right: 0;
+        margin: auto; }
+      .handseries_body .w .detail .line {
+        width: 100%;
+        position: absolute;
+        border-bottom: 1px solid #CCCCCC;
+        top: 48px; }
+      .handseries_body .w .detail p {
+        height: 25px;
+        line-height: 25px;
+        font-size: 14px; }
     .handseries_body .w .handseries_body_content {
       width: 100%;
       margin-top: 30px;
