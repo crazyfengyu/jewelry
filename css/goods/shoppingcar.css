@@ -99,4 +99,73 @@
       border: 0;
       cursor: pointer; }
 
+.car_certificate {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999; }
+  .car_certificate .car_certificate_box {
+    position: absolute;
+    width: 523px;
+    height: 692px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: url("../../images/pay_tj.png") no-repeat center; }
+    .car_certificate .car_certificate_box .cert_text {
+      width: 429px;
+      font-size: 15px;
+      color: #000;
+      position: absolute;
+      left: 55px;
+      top: 210px;
+      line-height: 36px;
+      letter-spacing: 3px; }
+      .car_certificate .car_certificate_box .cert_text em {
+        font-style: normal;
+        padding-bottom: 5px;
+        display: inline-block;
+        width: 128px;
+        border-bottom: 1px solid #000;
+        text-align: center;
+        line-height: 26px;
+        height: 26px; }
+    .car_certificate .car_certificate_box .lock {
+      width: 429px;
+      font-size: 12px;
+      color: #000;
+      position: absolute;
+      left: 55px;
+      top: 398px;
+      letter-spacing: 1px; }
+    .car_certificate .car_certificate_box .input_name {
+      width: 190px;
+      position: absolute;
+      left: 55px;
+      top: 480px;
+      text-align: right; }
+      .car_certificate .car_certificate_box .input_name input {
+        width: 120px;
+        height: 28px;
+        line-height: 28px;
+        border: 1px solid #000000;
+        margin-bottom: 10px;
+        padding-left: 10px; }
+      .car_certificate .car_certificate_box .input_name button {
+        width: 130px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border: 0;
+        outline: none;
+        background-color: #000000;
+        color: #FFFFFF; }
+
 /*# sourceMappingURL=shoppingcar.css.map */

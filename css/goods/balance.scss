@@ -1,0 +1,190 @@
+$width: 100%;
+
+@mixin vertical($value) {
+  height: $value;
+  line-height: $value;
+}
+
+.balance {
+  background-color: #f0f0f0;
+  padding-bottom: 100px;
+  .w {
+    .balance_top {
+      p {
+        @include vertical(50px);
+        background-color: #000000;
+        color: #FFFFFF;
+        font-size: 14px;
+        padding-left: 20px;
+        a {
+          float: right;
+          margin-right: 20px;
+        }
+      }
+      .balance_title {
+        width: $width;
+        background-color: #FFFFFF;
+        color: #000;
+        border-bottom: 1px solid #CCCCCC;
+        font-size: 14px;
+        margin-top: 20px;
+        @include vertical(50px);
+        li {
+          width: $width/6;
+          float: left;
+          text-align: center;
+        }
+        .first_li {
+          width: 100px;
+          text-align: center;
+        }
+
+        .second_li {
+          width: 300px;
+        }
+        .three_li, .four_li, .five_li, .six_li {
+          width: 225px;
+        }
+      }
+      .balance_body {
+        ul {
+          width: $width;
+          text-align: center;
+          height: 145px;
+          border-bottom: 1px solid #CCCCCC;
+          li {
+            float: left;
+            @include vertical(145px);
+            background-color: #fff;
+            .goodsimg {
+              width: 145px;
+              height: 145px;
+            }
+            p {
+              font-size: 14px;
+              background-color: #fff;
+              color: #000;
+              @include vertical(145px);
+            }
+          }
+          .first_li {
+            width: 100px;
+            text-align: center;
+            img {
+              margin-top: 70px;
+              cursor: pointer;
+            }
+          }
+          .second_li {
+            width: 300px;
+            cursor: pointer;
+          }
+
+          .three_li, .four_li, .five_li, .six_li {
+            width: 225px;
+          }
+
+          .four_li {
+            font-size: 0;
+            span {
+              display: inline-block;
+              vertical-align: middle;
+              width: 40px;
+              height: 18px;
+              font-size: 16px;
+              @include vertical(18px);
+            }
+          }
+        }
+      }
+      .balance_bottom_p {
+        text-align: right;
+        padding-right: 20px;
+        font-size: 14px;
+        background-color: #fff;
+        margin-top: 10px;
+        color: #000;
+      }
+    }
+    .balance_center {
+      margin-top: 20px;
+      .msg {
+        @include vertical(50px);
+        margin-bottom: 10px;
+        background-color: #000000;
+        color: #FFFFFF;
+        padding-left: 20px;
+        font-size: 14px;
+      }
+      .user_msg {
+        background-color: #fff;
+        padding: 20px;
+        li {
+          width: 340px;
+          float: left;
+          @include vertical(40px);
+          padding: 0 60px;
+        }
+        .max {
+          width: 1060px;
+        }
+      }
+    }
+    .balance_bottom {
+      margin-top: 20px;
+      .balance_bottom_title {
+        @include vertical(50px);
+        padding-left: 20px;
+        background-color: #000000;
+        color: #FFFFFF;
+      }
+      .balance_bottom_body {
+        background-color: #fff;
+        margin-top: 20px;
+        padding: 10px;
+        li {
+          height: 40px;
+          margin-bottom: 10px;
+          .fl {
+            width: 200px;
+            @include vertical(40px);
+            margin-left: 60px;
+          }
+          .pay {
+            float: left;
+            width: 180px;
+            @include vertical(38px);
+            border: 1px solid #CCCCCC;
+            img {
+              width: 137px;
+              height: 38px;
+              float: right;
+            }
+            input {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+    }
+    .sumpay {
+      @include vertical(50px);
+      margin-top: 20px;
+      background-color: #FFFFFF;
+      color: #000;
+      p {
+        float: right;
+        font-size: 16px;
+        margin-right: 40px;
+      }
+      button {
+        float: right;
+        width: 180px;
+        height: 50px;
+        background-color: #000000;
+        color: #FFFFFF;
+        border: 0;
+      }
+    }
+  }
+}

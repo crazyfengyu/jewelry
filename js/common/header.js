@@ -46,7 +46,7 @@ if (window.location.href.indexOf("index.html") == -1) {
 
 //封装函数显示用户信息
 function showUser(obj) {
-    $(".header_one").html("<a href='#'>" + obj["username"] + "</a><a href='#' class='exit'> /注销 </a>")
+    $(".header_one").html("<a href='../login/information.html'>" + obj["username"] + "</a><a href='#' class='exit'> /注销 </a>")
 }
 
 //为注销按钮绑定事件

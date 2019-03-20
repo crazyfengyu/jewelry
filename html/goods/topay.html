@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>购物流程_CRAZYFENGYU</title>
+    <link rel="stylesheet" href="../../css/reset.css"/>
+    <link rel="stylesheet" href="../../css/common/header.css"/>
+    <link rel="stylesheet" href="../../css/common/footer.css"/>
+    <link rel="stylesheet" href="../../css/common/page.css"/>
+    <link rel="stylesheet" href="../../css/goods/topay.css"/>
+</head>
+<body>
+<div class="common_header"></div>
+
+
+<div class="topay_body">
+    <div class="w">
+        <p>请您扫码完成付款：<span id="price"></span></p>
+        <img src="../../images/common/mypay_03.png" alt=""/>
+        <img src="../../images/common/mypay1_03.png" alt=""/>
+    </div>
+</div>
+
+<div class="common_footer"></div>
+</body>
+<script src="../../js/jquery/jquery-1.10.1.min.js"></script>
+<script src="../../js/common/config.js"></script>
+<script>
+    $(".common_header").load("../common/header.html", function () {
+        $.getScript("../../js/common/header.js");
+    });
+
+    $(".common_footer").load("../common/footer.html");
+
+    var price = window.location.search.split("=")[1];
+
+    $("#price").html(price + ".00元");
+</script>
+</html>
+

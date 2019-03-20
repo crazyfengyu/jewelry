@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>购物流程_CRAZYFENGYU</title>
+    <link rel="stylesheet" href="../../css/reset.css"/>
+    <link rel="stylesheet" href="../../css/common/header.css"/>
+    <link rel="stylesheet" href="../../css/common/footer.css"/>
+    <link rel="stylesheet" href="../../css/common/page.css"/>
+    <link rel="stylesheet" href="../../css/goods/balance.css"/>
+</head>
+<body>
+<div class="common_header"></div>
+
+<div class="balance">
+    <div class="w">
+        <div class="balance_top">
+            <p>商品清单 <a href="./pay.html">返回修改</a></p>
+            <ul class="balance_title clearfix">
+                <li class="second_li">商品名称</li>
+                <li class="three_li">属性</li>
+                <li class="four_li">购买数量</li>
+                <li class="five_li">单价</li>
+                <li class="six_li">小计</li>
+            </ul>
+            <div class="balance_body">
+                <!--<ul>-->
+                <!--<li class="second_li">-->
+                <!--<img src="../../images/goods/adjy.png" alt="" class="goodsimg fl"/>-->
+
+                <!--<p class="fl">遇见信服</p>-->
+                <!--</li>-->
+                <!--<li class="three_li">-->
+                <!--<p>定制砖石</p>-->
+                <!--</li>-->
+                <!--<li class="four_li">-->
+                <!--<span>12</span>-->
+                <!--</li>-->
+                <!--<li class="five_li">-->
+                <!--<p>8900</p>-->
+                <!--</li>-->
+                <!--<li class="six_li">-->
+                <!--<p>8900</p>-->
+                <!--</li>-->
+                <!--</ul>-->
+            </div>
+            <p class="balance_bottom_p">购物金额小计:￥：0.00</p>
+        </div>
+        <div class="balance_center">
+            <p class="msg">收货人信息</p>
+            <ul class="user_msg clearfix">
+                <li>
+                    <p>收货人姓名：<span id="address_name"></span></p>
+                </li>
+                <li>
+                    <p>邮政编码：<span id="address_code"></span></p>
+                </li>
+                <li>
+                    <p>收件人手机号：<span id="address_phone"></span></p>
+                </li>
+                <li class="max">
+                    <p>详细地址：<span id="address_msg"></span></p>
+                </li>
+                <li>
+                    <p>快递：顺丰速递（系统默认）</p>
+                </li>
+                <li>
+                    <p>费用：免运费</p>
+                </li>
+            </ul>
+        </div>
+        <div class="balance_bottom">
+            <p class="balance_bottom_title">支付方式</p>
+            <ul class="balance_bottom_body">
+                <li>
+                    <p class="fl">支付宝支付：</p>
+
+                    <div class="banlace_box">
+                        <p class="pay">
+                            <input type="radio" name="pay"/>
+                            <img src="../../images/zfb.png" alt=""/>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="sumpay clearfix">
+            <button id="submit_buy">确认提交</button>
+            <p>应付款金额：￥:0.00</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="common_footer"></div>
+</body>
+<script src="../../js/jquery/jquery-1.10.1.min.js"></script>
+<script src="../../js/common/config.js"></script>
+<script>
+    $(".common_header").load("../common/header.html", function () {
+        $.getScript("../../js/common/header.js");
+    });
+
+    $(".common_footer").load("../common/footer.html");
+
+    var price = 0;
+
+    //调用ajax获取该用户的商品列表
+    $.ajax({
+        type: "get",
+        url: "../../php/goods/getusershoppingcar.php",
+        data: {
+            type:2,
+            userid: getCookie("userid")
+        },
+        dataType: "json",
+        success: function (obj) {
+            showGoods(obj);
+        }
+    });
+
+    function showGoods(obj) {
+        $(".balance_body").html("");
+        for (var i = 0; i < obj.length; i++) {
+            var item = obj[i];
+            $("<ul><li class='second_li'><img src='../../images/goods/" + item["goodsimg"] + ".png' alt='' class='goodsimg fl'/><p class='fl'>" + item["goodsname"] + "</p></li><li class='three_li'><p>" + item["goodssize"] + item["goodsstyle"] + "</p></li><li class='four_li'><span>" + item["num"] + "</span></li><li class='five_li'><p>" + item["goodsprice"] + ".00</p></li><li class='six_li'><p>" + item["goodsprice"] * item["num"] + ".00</p></li></ul>").appendTo($(".balance_body"));
+            price += item["goodsprice"] * item["num"];
+        }
+        $(".balance_bottom_p").html("购物金额小计:￥：" + price + ".00");
+        $(".sumpay p").html("应付款金额：￥:" + price + ".00");
+    }
+
+    //获取收货人信息
+    $.ajax({
+        type: "get",
+        url: "../../php/pay/selectaddress.php",
+        data: {
+            userid: getCookie("userid")
+        },
+        dataType: "json",
+        success: function (obj) {
+            showAddress(obj);
+        }
+    });
+
+    function showAddress(obj) {
+        $("#address_name").html(obj["username"]);
+        $("#address_code").html(obj["userzipcode"]);
+        $("#address_phone").html(obj["userphone"]);
+        $("#address_msg").html(obj["useraddress"]);
+    }
+
+
+    $("#submit_buy").click(function () {
+        if ($(".balance_bottom_body .pay input").prop("checked") == true) {
+            window.location.href = "./topay.html?price=" + price;
+        }
+    });
+</script>
+</html>
+

@@ -1,0 +1,152 @@
+.balance {
+  background-color: #f0f0f0;
+  padding-bottom: 100px; }
+  .balance .w .balance_top p {
+    height: 50px;
+    line-height: 50px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding-left: 20px; }
+    .balance .w .balance_top p a {
+      float: right;
+      margin-right: 20px; }
+  .balance .w .balance_top .balance_title {
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #000;
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 14px;
+    margin-top: 20px;
+    height: 50px;
+    line-height: 50px; }
+    .balance .w .balance_top .balance_title li {
+      width: 16.66667%;
+      float: left;
+      text-align: center; }
+    .balance .w .balance_top .balance_title .first_li {
+      width: 100px;
+      text-align: center; }
+    .balance .w .balance_top .balance_title .second_li {
+      width: 300px; }
+    .balance .w .balance_top .balance_title .three_li, .balance .w .balance_top .balance_title .four_li, .balance .w .balance_top .balance_title .five_li, .balance .w .balance_top .balance_title .six_li {
+      width: 225px; }
+  .balance .w .balance_top .balance_body ul {
+    width: 100%;
+    text-align: center;
+    height: 145px;
+    border-bottom: 1px solid #CCCCCC; }
+    .balance .w .balance_top .balance_body ul li {
+      float: left;
+      height: 145px;
+      line-height: 145px;
+      background-color: #fff; }
+      .balance .w .balance_top .balance_body ul li .goodsimg {
+        width: 145px;
+        height: 145px; }
+      .balance .w .balance_top .balance_body ul li p {
+        font-size: 14px;
+        background-color: #fff;
+        color: #000;
+        height: 145px;
+        line-height: 145px; }
+    .balance .w .balance_top .balance_body ul .first_li {
+      width: 100px;
+      text-align: center; }
+      .balance .w .balance_top .balance_body ul .first_li img {
+        margin-top: 70px;
+        cursor: pointer; }
+    .balance .w .balance_top .balance_body ul .second_li {
+      width: 300px;
+      cursor: pointer; }
+    .balance .w .balance_top .balance_body ul .three_li, .balance .w .balance_top .balance_body ul .four_li, .balance .w .balance_top .balance_body ul .five_li, .balance .w .balance_top .balance_body ul .six_li {
+      width: 225px; }
+    .balance .w .balance_top .balance_body ul .four_li {
+      font-size: 0; }
+      .balance .w .balance_top .balance_body ul .four_li span {
+        display: inline-block;
+        vertical-align: middle;
+        width: 40px;
+        height: 18px;
+        font-size: 16px;
+        height: 18px;
+        line-height: 18px; }
+  .balance .w .balance_top .balance_bottom_p {
+    text-align: right;
+    padding-right: 20px;
+    font-size: 14px;
+    background-color: #fff;
+    margin-top: 10px;
+    color: #000; }
+  .balance .w .balance_center {
+    margin-top: 20px; }
+    .balance .w .balance_center .msg {
+      height: 50px;
+      line-height: 50px;
+      margin-bottom: 10px;
+      background-color: #000000;
+      color: #FFFFFF;
+      padding-left: 20px;
+      font-size: 14px; }
+    .balance .w .balance_center .user_msg {
+      background-color: #fff;
+      padding: 20px; }
+      .balance .w .balance_center .user_msg li {
+        width: 340px;
+        float: left;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 60px; }
+      .balance .w .balance_center .user_msg .max {
+        width: 1060px; }
+  .balance .w .balance_bottom {
+    margin-top: 20px; }
+    .balance .w .balance_bottom .balance_bottom_title {
+      height: 50px;
+      line-height: 50px;
+      padding-left: 20px;
+      background-color: #000000;
+      color: #FFFFFF; }
+    .balance .w .balance_bottom .balance_bottom_body {
+      background-color: #fff;
+      margin-top: 20px;
+      padding: 10px; }
+      .balance .w .balance_bottom .balance_bottom_body li {
+        height: 40px;
+        margin-bottom: 10px; }
+        .balance .w .balance_bottom .balance_bottom_body li .fl {
+          width: 200px;
+          height: 40px;
+          line-height: 40px;
+          margin-left: 60px; }
+        .balance .w .balance_bottom .balance_bottom_body li .pay {
+          float: left;
+          width: 180px;
+          height: 38px;
+          line-height: 38px;
+          border: 1px solid #CCCCCC; }
+          .balance .w .balance_bottom .balance_bottom_body li .pay img {
+            width: 137px;
+            height: 38px;
+            float: right; }
+          .balance .w .balance_bottom .balance_bottom_body li .pay input {
+            margin-left: 10px; }
+  .balance .w .sumpay {
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    color: #000; }
+    .balance .w .sumpay p {
+      float: right;
+      font-size: 16px;
+      margin-right: 40px; }
+    .balance .w .sumpay button {
+      float: right;
+      width: 180px;
+      height: 50px;
+      background-color: #000000;
+      color: #FFFFFF;
+      border: 0; }
+
+/*# sourceMappingURL=balance.css.map */

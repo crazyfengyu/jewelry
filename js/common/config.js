@@ -103,3 +103,8 @@ function getAllWidth() {
 function getAllHeight() {
     return document.documentElement.scrollHeight || document.body.scrollHeight;
 }
+
+function setStopPropagation(e) {
+    var evt = window.event || e;
+    return evt.stopPropagation ? evt.stopPropagation() : evt.cancelBubble = true;
+}

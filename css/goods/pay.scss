@@ -1,0 +1,65 @@
+$width: 100%;
+
+@mixin vertacil($value) {
+  height: $value;
+  line-height: $value;
+}
+
+.pay_body {
+  background-color: #f0f0f0;
+  padding-top: 20px;
+  .w {
+    .pay_body_title {
+      @include vertacil(50px);
+      background-color: #000000;
+      color: #FFFFFF;
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .pay_address {
+      background-color: #fff;
+      padding: 20px;
+      li {
+        label {
+          display: inline-block;
+          width: 100px;
+          text-align: right;
+          font-size: 14px;
+        }
+        select {
+          width: 105px;
+          @include vertacil(30px);
+          margin-bottom: 20px;
+        }
+
+        input {
+          margin-bottom: 20px;
+          padding-left: 10px;
+        }
+        .ip1 {
+          width: 180px;
+          @include vertacil(40px);
+          border: 1px solid #CCCCCC;
+        }
+
+        .ip2 {
+          width: 440px;
+          @include vertacil(40px);
+          border: 1px solid #CCCCCC;
+        }
+      }
+    }
+    #submit_address {
+      width: 180px;
+      @include vertacil(60px);
+      text-align: center;
+      border: 0;
+      background-color: #000000;
+      color: #FFFFFF;
+      font-size: 18px;
+      outline: none;
+      margin: 20px auto;
+    }
+  }
+}

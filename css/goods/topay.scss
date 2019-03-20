@@ -1,0 +1,26 @@
+$width: 100%;
+
+@mixin vertical($value) {
+  height: $value;
+  line-height: $value;
+}
+
+.topay_body {
+  background-color: #f0f0f0;
+  .w {
+    text-align: center;
+    padding-bottom: 100px;
+    p {
+      text-align: center;
+      @include vertical(100px);
+      font-size: 35px;
+    }
+
+    img {
+      width: 260px;
+      height: 260px;
+      margin-right: 20px;
+      border:5px solid #CCCCCC;
+    }
+  }
+}

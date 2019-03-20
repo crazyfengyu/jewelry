@@ -4,9 +4,10 @@
 
     //获取传入的参数
     $userid = $_GET["userid"];
+    $type =$_GET["type"];
 
     //创建sql语句
-    $sql = "SELECT gd.goodsname,gd.goodsimg,gd.goodsprice,us.goodsid,us.num,us.goodssize,us.goodsstyle from usergoods  us, goodsinfo  gd where us.goodsid = gd.id and us.userid = $userid";
+    $sql = "SELECT us.id,gd.goodsname,gd.goodsimg,gd.goodsprice,us.goodsid,us.num,us.goodssize,us.goodsstyle from usergoods  us, goodsinfo  gd where us.goodsid = gd.id and us.userid = $userid and us.type =$type";
 
     //执行sql语句
     $result = mysql_query($sql);

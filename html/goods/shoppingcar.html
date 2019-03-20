@@ -51,15 +51,33 @@
         </div>
         <ul class="shoppingcar_body_bottom">
             <li class="first_li">
-                <button>清空购物车</button>
+                <button id="clearAll">清空购物车</button>
             </li>
             <li class="second_li">
-                <p>商品应付金额：￥:</p>
+                <p>商品应付金额：￥:0.00</p>
             </li>
             <li class="three_li">
-                <button>提交订单</button>
+                <button id="topay">提交订单</button>
             </li>
         </ul>
+    </div>
+</div>
+
+<div class="car_certificate">
+    <div class="car_certificate_box">
+        <div class="cert_text">
+            <p><em id="sir_name">zhangsan</em>先生， 愿意将代表自己一生唯一真爱的FORMYROSE赠与他的真爱 <em id="woman_name">312231</em>女士，诺誓执子之手、与子偕老。自誓言许下之日起，系统锁定爱人姓名，一生不得更改!
+            </p>
+        </div>
+        <p class="lock">閣下與愛人的姓名將存入CRAZYFENGYU真愛檔案並鎖定，壹生不得更改。</p>
+
+        <div class="input_name">
+            <label for="man_name">先生:</label>
+            <input type="text" id="man_name"/>
+            <label for="gril_name">女士:</label>
+            <input type="text" id="gril_name"/>
+            <button id="submit_msg">确认提交</button>
+        </div>
     </div>
 </div>
 
@@ -75,14 +93,16 @@
 
     $(".common_footer").load("../common/footer.html");
 
-    //判断用户是否登录
-    if (getCookie("userid")) {
-        //登录显示用户购物车
-        //调用ajax获取用户数据
+    //获取所有的商品id
+    var list = [];
+
+
+    function getData() {
         $.ajax({
             type: "get",
             url: "../../php/goods/getusershoppingcar.php",
             data: {
+                type:1,
                 userid: getCookie("userid")
             },
             dataType: "json",
@@ -90,7 +110,13 @@
                 successGet(obj);
             }
         });
+    }
 
+    //判断用户是否登录
+    if (getCookie("userid")) {
+        //登录显示用户购物车
+        //调用ajax获取用户数据
+        getData();
     } else {
         //没有登录
         setCookie("backUrl", window.location.href, 7);
@@ -102,14 +128,196 @@
         var price = 0;
         for (var i = 0; i < obj.length; i++) {
             var item = obj[i];
-            $("<ul><li class='first_li'><img src='../../images/shoppingcar_del.png' alt=''/></li><li class='second_li'> <img src='../../images/goods/" + item["goodsimg"] + ".png' alt='' class='goodsimg fl'/> <p class='fl'>" + item["goodsname"] + "</p></li><li class='three_li'><p>" + item["goodsstyle"] + ":" + item["goodssize"] + "</p></li><li class='four_li'><button class='del'>-</button><span>" + item["num"] + "</span><button class='add'>+</button></li><li class='five_li'<p>" + item["goodsprice"] + ".00</p></li><li class='six_li'<p>" + item["goodsprice"] * item["num"] + ".00</p></li></ul>").appendTo($(".shoppingcar_body_body"));
+            $("<ul data_id=" + item["id"] + "><li class='first_li'><img src='../../images/shoppingcar_del.png' alt=''/></li><li class='second_li'> <img src='../../images/goods/" + item["goodsimg"] + ".png' alt='' class='goodsimg fl'/> <p class='fl'>" + item["goodsname"] + "</p></li><li class='three_li'><p>" + item["goodsstyle"] + ":" + item["goodssize"] + "</p></li><li class='four_li'><button class='del'>-</button><span>" + item["num"] + "</span><button class='add'>+</button></li><li class='five_li'><p>" + item["goodsprice"] + ".00</p></li><li class='six_li'><p>" + item["goodsprice"] * item["num"] + ".00</p></li></ul>").appendTo($(".shoppingcar_body_body"));
             price += item["goodsprice"] * item["num"];
         }
         $(".shoppingcar_body_bottom .second_li p").html("商品应付金额：￥:" + price);
     }
 
+    //删除按钮
+
     $(document).on("click", ".shoppingcar_body_body .first_li img", function () {
-        alert(111);
+        //点击删除按钮找到父元素
+        var ul = $(this).parent().parent();
+        //删除这个列表
+        ul.remove();
+        //调用ajax更新数据库信息
+        $.ajax({
+            type: "get",
+            url: "../../php/goods/delusergoods.php",
+            data: {
+                goodid: ul.attr("data_id")
+            },
+            dataType: "json",
+            success: function (obj) {
+                successDel(obj);
+            }
+        });
     });
+
+    function successDel(obj) {
+        if (obj["code"] == 0) {
+            setCookie("backUrl", window.location.href, 7);
+            window.location.href = "../login/retry.html";
+        }
+    }
+
+    //增加数量按钮
+    $(document).on("click", ".shoppingcar_body_body .four_li .del", function () {
+        //获取单价
+        var price = $(this).parent().next().children().html();
+        //定义总价
+        var sum = 0;
+        //获取父元素
+        var ul = $(this).parent().parent();
+        //获取下一个元素
+        var span = $(this).next();
+        //设置span的value值减1,判断如果value值为1即点击无效
+        if (span.html() <= 1) {
+            span.html("1");
+        } else {
+            span.html(span.html() - 1);
+            $(this).parent().next().next().children().html(span.html() * price + ".00   ");
+            //循环计算总价
+            $(".shoppingcar_body_body .six_li p").each(function () {
+                sum += $(this).html() * 1;
+            });
+            $(".shoppingcar_body_bottom .second_li p").html("商品应付金额：￥:" + sum + ".00");
+            reviseNum(-1, ul.attr("data_id"));
+        }
+    });
+
+    $(document).on("click", ".shoppingcar_body_body .four_li .add", function () {
+        //获取单价
+        var price = $(this).parent().next().children().html();
+        //定义总价
+        var sum = 0;
+        //获取父元素
+        var ul = $(this).parent().parent();
+        //获取下一个元素
+        var span = $(this).prev();
+        //设置span的value值减1,判断如果value值为1即点击无效
+        span.html(span.html() * 1 + 1);
+        $(this).parent().next().next().children().html(span.html() * price + ".00");
+        $(".shoppingcar_body_body .six_li p").each(function () {
+            sum += $(this).html() * 1;
+        });
+        $(".shoppingcar_body_bottom .second_li p").html("商品应付金额：￥:" + sum + ".00");
+        reviseNum(1, ul.attr("data_id"));
+    });
+
+
+    function reviseNum(num, id) {
+        //调用ajax更新数据
+        $.ajax({
+            type: "get",
+            url: "../../php/goods/reviseusergoodsnum.php",
+            data: {
+                num: num,
+                carId: id
+            },
+            dataType: "json",
+            success: function (obj) {
+                successRevise(obj);
+            }
+        });
+    }
+
+
+    function successRevise(obj, del) {
+        if (obj["code"] == 0) {
+            setCookie("backUrl", window.location.href, 7);
+            window.location.href = "../login/retry.html";
+        } else {
+            if (del == "del") {
+                $(".shoppingcar_body_body").html("");
+                $(".shoppingcar_body_bottom .second_li p").html("商品应付金额：￥: 0.00");
+            }
+        }
+    }
+
+    //清空购物车
+    $("#clearAll").click(function () {
+        $(".shoppingcar_body_body ul").each(function (i) {
+            list.push($(this).attr("data_id"));
+        });
+        //调用ajax删除购物车数据
+        $.ajax({
+            type: "get",
+            url: "../../php/goods/delusergoods.php",
+            data: {
+                goodid: list.join(",")
+            },
+            dataType: "json",
+            success: function (obj) {
+                successRevise(obj, "del");
+            }
+        });
+    });
+
+    $("#topay").click(function (e) {
+        setStopPropagation(e)
+        $(".car_certificate").show();
+        //获取用户注册的信息
+        $.ajax({
+            type: "get",
+            url: "../../php/index/selectuser.php",
+            data: {
+                userid: getCookie("userid")
+            },
+            dataType: "json",
+            success: function (obj) {
+                showName(obj);
+            }
+        });
+        $(".car_certificate").click(function () {
+            $(".car_certificate").hide();
+        });
+        $(".car_certificate .car_certificate_box").click(function (e) {
+            setStopPropagation(e)
+        });
+    });
+
+    function showName(obj) {
+        $("#sir_name").html(obj["username"]);
+        $("#man_name").val(obj["username"]);
+        $("#gril_name").val(obj["userlovename"]);
+        $("#woman_name").html(obj["userlovename"]);
+    }
+
+
+    $("#man_name").keydown(function () {
+        if ($(this).val().length <= 8) {
+            $("#sir_name").html($(this).val());
+        } else {
+            $(this).val($(this).val().substring(0, 8));
+        }
+    }).keyup(function () {
+        if ($(this).val().length <= 8) {
+            $("#sir_name").html($(this).val());
+        } else {
+            $(this).val($(this).val().substring(0, 8));
+        }
+    });
+
+    $("#gril_name").keydown(function () {
+        if ($(this).val().length <= 8) {
+            $("#woman_name").html($(this).val());
+        } else {
+            $(this).val($(this).val().substring(0, 8));
+        }
+    }).keyup(function () {
+        if ($(this).val().length <= 8) {
+            $("#woman_name").html($(this).val());
+        } else {
+            $(this).val($(this).val().substring(0, 8));
+        }
+    });
+
+
+    $("#submit_msg").click(function () {
+        window.location.href = "./pay.html";
+    });
+
 </script>
 </html>
