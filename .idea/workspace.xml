@@ -2,15 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34442c24-2a81-4551-84bc-08ffe9bfa976" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common/config.js" afterPath="$PROJECT_DIR$/js/common/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/pay/addaddress.php" afterPath="$PROJECT_DIR$/php/pay/addaddress.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/b2000.html" afterPath="$PROJECT_DIR$/html/goods/b2000.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/balance.html" afterPath="$PROJECT_DIR$/html/goods/balance.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/goods/buygoods.php" afterPath="$PROJECT_DIR$/php/goods/buygoods.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/choiseries.html" afterPath="$PROJECT_DIR$/html/goods/choiseries.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/detail.html" afterPath="$PROJECT_DIR$/html/goods/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/dolphinseries.html" afterPath="$PROJECT_DIR$/html/goods/dolphinseries.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/earbob.html" afterPath="$PROJECT_DIR$/html/goods/earbob.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/goods/getusershoppingcar.php" afterPath="$PROJECT_DIR$/php/goods/getusershoppingcar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/fseries.html" afterPath="$PROJECT_DIR$/html/goods/fseries.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/handseries.html" afterPath="$PROJECT_DIR$/html/goods/handseries.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common/header.css.map" afterPath="$PROJECT_DIR$/css/common/header.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common/header.css" afterPath="$PROJECT_DIR$/css/common/header.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/common/header.html" afterPath="$PROJECT_DIR$/html/common/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common/header.js" afterPath="$PROJECT_DIR$/js/common/header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common/header.scss" afterPath="$PROJECT_DIR$/css/common/header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index/index.css" afterPath="$PROJECT_DIR$/css/index/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index/index.scss" afterPath="$PROJECT_DIR$/css/index/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/login/information.html" afterPath="$PROJECT_DIR$/html/login/information.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/login/login.html" afterPath="$PROJECT_DIR$/html/login/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/meetseries.html" afterPath="$PROJECT_DIR$/html/goods/meetseries.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/moreseries.html" afterPath="$PROJECT_DIR$/html/goods/moreseries.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/necklace.html" afterPath="$PROJECT_DIR$/html/goods/necklace.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common/page.css" afterPath="$PROJECT_DIR$/css/common/page.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common/page.js" afterPath="$PROJECT_DIR$/js/common/page.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/pay.html" afterPath="$PROJECT_DIR$/html/goods/pay.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/login/register.html" afterPath="$PROJECT_DIR$/html/login/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/login/register.php" afterPath="$PROJECT_DIR$/php/login/register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/login/retry.html" afterPath="$PROJECT_DIR$/html/login/retry.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/ring.html" afterPath="$PROJECT_DIR$/html/goods/ring.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/goods/selectgoodsb2000.php" afterPath="$PROJECT_DIR$/php/goods/selectgoodsb2000.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/goods/shoppingcar.css.map" afterPath="$PROJECT_DIR$/css/goods/shoppingcar.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/goods/shoppingcar.css" afterPath="$PROJECT_DIR$/css/goods/shoppingcar.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/shoppingcar.html" afterPath="$PROJECT_DIR$/html/goods/shoppingcar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/goods/shoppingcar.scss" afterPath="$PROJECT_DIR$/css/goods/shoppingcar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/topay.html" afterPath="$PROJECT_DIR$/html/goods/topay.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/pay/updateusergoods.php" afterPath="$PROJECT_DIR$/php/pay/updateusergoods.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/watch.html" afterPath="$PROJECT_DIR$/html/goods/watch.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jewelry.iws" />
@@ -35,102 +65,38 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="9.190476">
-              <caret line="547" column="28" selection-start-line="547" selection-start-column="28" selection-end-line="547" selection-end-column="28" />
+            <state vertical-scroll-proportion="7.571429">
+              <caret line="468" column="10" selection-start-line="468" selection-start-column="10" selection-end-line="468" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shoppingcar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/goods/shoppingcar.html">
+      <file leaf-file-name="page.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/common/page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9285715">
-              <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="balance.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/goods/balance.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9285715">
-              <caret line="113" column="19" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.27227724">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topay.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/goods/topay.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.357143">
-              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getusershoppingcar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/goods/getusershoppingcar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="information.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/login/information.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.7619047">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pay.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/goods/pay.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0">
-              <caret line="187" column="69" selection-start-line="187" selection-start-column="69" selection-end-line="187" selection-end-column="69" />
-              <folding>
-                <element signature="e#2515#5340#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/common/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21782178">
-              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="updateusergoods.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/pay/updateusergoods.php">
+      <file leaf-file-name="header.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/common/header.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reviseusergoodsnum.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/goods/reviseusergoodsnum.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="65" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="65" />
+              <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="47" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -143,8 +109,9 @@
       <list>
         <option value="CSS File" />
         <option value="XSLT Stylesheet" />
-        <option value="PHP file" />
         <option value="Html5" />
+        <option value="PHP file" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -154,57 +121,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/php/goods/selectgooswatch.php" />
-        <option value="$PROJECT_DIR$/php/goods/getgoodswatchcount.php" />
-        <option value="$PROJECT_DIR$/css/goods/handseries.scss" />
-        <option value="$PROJECT_DIR$/php/goods/selectgoodsdolphinseries.php" />
-        <option value="$PROJECT_DIR$/php/goods/getgoodsdolphinseriescount.php" />
-        <option value="$PROJECT_DIR$/php/goods/selectgoodsmeetseries.php" />
-        <option value="$PROJECT_DIR$/php/goods/getgoodsmeetseriescount.php" />
-        <option value="$PROJECT_DIR$/php/goods/selectgoodsfseries.php" />
-        <option value="$PROJECT_DIR$/php/goods/getgoodsfseriescount.php" />
-        <option value="$PROJECT_DIR$/php/goods/selectgoodschoiseries.php" />
-        <option value="$PROJECT_DIR$/php/goods/getgoodschoiseriescount.php" />
-        <option value="$PROJECT_DIR$/php/goods/getgoodsmoreseriescount.php" />
-        <option value="$PROJECT_DIR$/php/goods/selectgoodsmoreseries.php" />
-        <option value="$PROJECT_DIR$/php/goods/getgoodsb2000count.php" />
-        <option value="$PROJECT_DIR$/php/goods/selectgoodsb2000.php" />
-        <option value="$PROJECT_DIR$/php/goods/detail.php" />
-        <option value="$PROJECT_DIR$/html/goods/series.html" />
-        <option value="$PROJECT_DIR$/html/goods/watch.html" />
-        <option value="$PROJECT_DIR$/html/goods/ring.html" />
-        <option value="$PROJECT_DIR$/html/goods/necklace.html" />
-        <option value="$PROJECT_DIR$/html/goods/moreseries.html" />
-        <option value="$PROJECT_DIR$/html/goods/earbob.html" />
         <option value="$PROJECT_DIR$/html/goods/choiseries.html" />
-        <option value="$PROJECT_DIR$/html/goods/b2000.html" />
-        <option value="$PROJECT_DIR$/html/goods/fseries.html" />
-        <option value="$PROJECT_DIR$/html/goods/meetseries.html" />
-        <option value="$PROJECT_DIR$/html/goods/handseries.html" />
-        <option value="$PROJECT_DIR$/html/goods/dolphinseries.html" />
-        <option value="$PROJECT_DIR$/css/goods/detial.scss" />
-        <option value="$PROJECT_DIR$/php/goods/buygoods.php" />
-        <option value="$PROJECT_DIR$/css/common/page.css" />
-        <option value="$PROJECT_DIR$/html/common/header.html" />
-        <option value="$PROJECT_DIR$/php/goods/reviseusergoodsnum.php" />
-        <option value="$PROJECT_DIR$/php/goods/delusergoods.php" />
-        <option value="$PROJECT_DIR$/css/goods/shoppingcar.scss" />
-        <option value="$PROJECT_DIR$/js/common/config.js" />
-        <option value="$PROJECT_DIR$/css/goods/pay.scss" />
         <option value="$PROJECT_DIR$/html/goods/detail.html" />
-        <option value="$PROJECT_DIR$/php/pay/selectaddress.php" />
-        <option value="$PROJECT_DIR$/css/goods/topay.scss" />
-        <option value="$PROJECT_DIR$/html/goods/topay.html" />
-        <option value="$PROJECT_DIR$/php/pay/addaddress.php" />
-        <option value="$PROJECT_DIR$/css/goods/balance.scss" />
+        <option value="$PROJECT_DIR$/js/goods/dolphinseries.js" />
+        <option value="$PROJECT_DIR$/html/goods/dolphinseries.html" />
+        <option value="$PROJECT_DIR$/js/goods/earbob.js" />
+        <option value="$PROJECT_DIR$/html/goods/earbob.html" />
+        <option value="$PROJECT_DIR$/js/goods/fseries.js" />
+        <option value="$PROJECT_DIR$/html/goods/fseries.html" />
+        <option value="$PROJECT_DIR$/js/goods/handseries.js" />
+        <option value="$PROJECT_DIR$/html/goods/handseries.html" />
+        <option value="$PROJECT_DIR$/js/goods/meetseries.js" />
+        <option value="$PROJECT_DIR$/html/goods/meetseries.html" />
+        <option value="$PROJECT_DIR$/js/goods/moreseries.js" />
+        <option value="$PROJECT_DIR$/html/goods/moreseries.html" />
+        <option value="$PROJECT_DIR$/js/goods/necklace.js" />
+        <option value="$PROJECT_DIR$/html/goods/necklace.html" />
         <option value="$PROJECT_DIR$/html/goods/pay.html" />
-        <option value="$PROJECT_DIR$/php/pay/updateusergoods.php" />
-        <option value="$PROJECT_DIR$/html/goods/balance.html" />
-        <option value="$PROJECT_DIR$/html/goods/shoppingcar.html" />
-        <option value="$PROJECT_DIR$/php/goods/getusershoppingcar.php" />
+        <option value="$PROJECT_DIR$/js/goods/ring.js" />
+        <option value="$PROJECT_DIR$/html/goods/ring.html" />
+        <option value="$PROJECT_DIR$/js/goods/topay.js" />
+        <option value="$PROJECT_DIR$/html/goods/topay.html" />
+        <option value="$PROJECT_DIR$/js/goods/watch.js" />
+        <option value="$PROJECT_DIR$/html/goods/watch.html" />
         <option value="$PROJECT_DIR$/html/login/information.html" />
+        <option value="$PROJECT_DIR$/js/login/login.js" />
+        <option value="$PROJECT_DIR$/html/login/register.html" />
+        <option value="$PROJECT_DIR$/js/login/retry.js" />
+        <option value="$PROJECT_DIR$/html/login/retry.html" />
+        <option value="$PROJECT_DIR$/css/login/information.scss" />
+        <option value="$PROJECT_DIR$/css/index/index.scss" />
+        <option value="$PROJECT_DIR$/php/pay/updateusergoodstype.php" />
+        <option value="$PROJECT_DIR$/html/login/login.html" />
+        <option value="$PROJECT_DIR$/js/common/page.js" />
+        <option value="$PROJECT_DIR$/js/index/index.js" />
+        <option value="$PROJECT_DIR$/js/login/information.js" />
+        <option value="$PROJECT_DIR$/html/common/header.html" />
+        <option value="$PROJECT_DIR$/php/login/register.php" />
+        <option value="$PROJECT_DIR$/js/login/register.js" />
+        <option value="$PROJECT_DIR$/php/goods/selectgoodsb2000.php" />
+        <option value="$PROJECT_DIR$/js/goods/detail.js" />
+        <option value="$PROJECT_DIR$/css/common/header.scss" />
+        <option value="$PROJECT_DIR$/php/goods/buygoods.php" />
+        <option value="$PROJECT_DIR$/php/pay/updateusergoods.php" />
+        <option value="$PROJECT_DIR$/js/goods/pay.js" />
+        <option value="$PROJECT_DIR$/js/goods/balance.js" />
+        <option value="$PROJECT_DIR$/css/goods/shoppingcar.scss" />
+        <option value="$PROJECT_DIR$/html/goods/shoppingcar.html" />
+        <option value="$PROJECT_DIR$/js/goods/shoppingcar.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/common/header.js" />
+        <option value="$PROJECT_DIR$/css/common/page.css" />
       </list>
     </option>
   </component>
@@ -235,7 +202,7 @@
     <OptionsSetting value="true" id="状态" />
     <OptionsSetting value="true" id="编辑" />
     <OptionsSetting value="true" id="检出" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -251,7 +218,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -369,6 +336,60 @@
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -398,93 +419,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jewelry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goods" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -508,7 +443,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -585,7 +520,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22401172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -622,347 +557,160 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php/goods/selectgoodsmeetseries.php">
+    <entry file="file://$PROJECT_DIR$/js/goods/handseries.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/goods/getgoodsmeetseriescount.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/goods/selectgoodsfseries.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/goods/selectgoodschoiseries.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/goods/getgoodsfseriescount.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/goods/getgoodschoiseriescount.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/goods/getgoodsmoreseriescount.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/goods/selectgoodsmoreseries.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/goods/getgoodsb2000count.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/goods/selectgoodsb2000.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="106" selection-start-line="11" selection-start-column="106" selection-end-line="11" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/login/retry.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/login/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="186" column="31" selection-start-line="186" selection-start-column="31" selection-end-line="186" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/goods/detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/goods/watch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.428572">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/goods/ring.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.857143">
-          <caret line="16" column="136" selection-start-line="16" selection-start-column="136" selection-end-line="16" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/goods/choiseries.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.857143">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/goods/earbob.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.857143">
-          <caret line="16" column="136" selection-start-line="16" selection-start-column="136" selection-end-line="16" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/goods/meetseries.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.285714">
-          <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2380953">
-          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/goods/b2000.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="65.14286">
-          <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/goods/detial.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/goods/moreseries.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23404256">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/goods/detial.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6968085">
-          <caret line="179" column="20" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/common/page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/goods/dolphinseries.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/goods/handseries.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.142857">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/goods/meetseries.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/goods/meetseries.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.142857">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/goods/moreseries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/goods/moreseries.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.357143">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/goods/necklace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/goods/necklace.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="136" />
+        <state vertical-scroll-proportion="-7.142857">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/common/header.html">
+    <entry file="file://$PROJECT_DIR$/js/goods/ring.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.410891">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/goods/ring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.142857">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/goods/topay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.490099">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/goods/topay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47340426">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/goods/watch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/goods/fseries.html">
+    <entry file="file://$PROJECT_DIR$/html/goods/watch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
+        <state vertical-scroll-proportion="1.4042553">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/goods/buygoods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/index/selectuser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.16336633">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/login/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/common/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7821782">
-          <caret line="106" column="27" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/goods/pay.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/goods/shoppingcar.scss">
+    <entry file="file://$PROJECT_DIR$/html/login/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.571429">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="40" selection-end-column="5" />
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/goods/detail.html">
+    <entry file="file://$PROJECT_DIR$/html/login/retry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7142857">
-          <caret line="203" column="34" selection-start-line="203" selection-start-column="34" selection-end-line="203" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.88297874">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/login/information.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.190476">
+          <caret line="174" column="32" selection-start-line="174" selection-start-column="32" selection-end-line="174" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29787233">
+          <caret line="268" column="23" selection-start-line="268" selection-start-column="23" selection-end-line="268" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/login/information.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54787236">
+          <caret line="98" column="42" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5445545">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.509901">
+          <caret line="122" column="33" selection-start-line="122" selection-start-column="33" selection-end-line="122" selection-end-column="33" />
           <folding>
-            <element signature="e#6951#7413#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/goods/topay.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/pay/addaddress.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/goods/balance.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
-          <folding>
-            <element signature="e#174#2400#0" expanded="false" />
-            <element signature="e#997#2200#0" expanded="false" />
-            <element signature="e#2931#3777#0" expanded="false" />
-            <element signature="e#3142#3771#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/pay/selectaddress.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/goods/delusergoods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/goods/reviseusergoodsnum.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="65" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/goods/pay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0">
-          <caret line="187" column="69" selection-start-line="187" selection-start-column="69" selection-end-line="187" selection-end-column="69" />
-          <folding>
-            <element signature="e#2515#5340#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/pay/updateusergoods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/goods/balance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9285715">
-          <caret line="113" column="19" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/goods/shoppingcar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9285715">
-          <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -970,39 +718,228 @@
     <entry file="file://$PROJECT_DIR$/php/goods/getusershoppingcar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/goods/reviseusergoodsnum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.490099">
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/login/retry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/login/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="139" column="40" selection-start-line="139" selection-start-column="40" selection-end-line="139" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/login/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="116" selection-start-line="11" selection-start-column="116" selection-end-line="11" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/goods/b2000.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/goods/selectgoodsb2000.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="105" selection-start-line="11" selection-start-column="105" selection-end-line="11" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/goods/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.714286">
+          <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/goods/topay.html">
+    <entry file="file://$PROJECT_DIR$/html/common/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.357143">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.2925532">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/goods/buygoods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43564355">
+          <caret line="11" column="94" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/goods/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29372936">
+          <caret line="154" column="33" selection-start-line="154" selection-start-column="33" selection-end-line="154" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/goods/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.11170213">
+          <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/pay/updateusergoods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/login/information.html">
+    <entry file="file://$PROJECT_DIR$/html/goods/balance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.7619047">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/pay/updateusergoodstype.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/goods/pay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59042555">
+          <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/goods/pay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16336633">
+          <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+            <element signature="e#287#2876#0" expanded="false" />
+            <element signature="e#3988#3998#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/goods/balance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32673267">
+          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/login/information.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38118812">
+          <caret line="91" column="47" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/goods/shoppingcar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="118" column="26" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/goods/shoppingcar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/goods/shoppingcar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="298" column="35" selection-start-line="298" selection-start-column="35" selection-end-line="298" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+            <element signature="n#!!block;n#getData#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="47" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.190476">
-          <caret line="547" column="28" selection-start-line="547" selection-start-column="28" selection-end-line="547" selection-end-column="28" />
+        <state vertical-scroll-proportion="7.571429">
+          <caret line="468" column="10" selection-start-line="468" selection-start-column="10" selection-end-line="468" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/common/header.js">
+    <entry file="file://$PROJECT_DIR$/css/common/page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21782178">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.27227724">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding />
         </state>
       </provider>

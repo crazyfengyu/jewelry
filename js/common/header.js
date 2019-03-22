@@ -28,7 +28,7 @@ $("#custom_li").mouseenter(function () {
 });
 
 //登录成功到达这个页面显示用户名
-if (window.location.href.indexOf("index.html") == -1) {
+if (window.location.href != "http://localhost/jewelry/") {
     if (getCookie("userid")) {
         $.ajax({
             type: "get",
@@ -51,7 +51,35 @@ function showUser(obj) {
 
 //为注销按钮绑定事件
 $(document).on("click", ".exit", function () {
+    setCookie("backUrl", "", -7);
     setCookie("userid", "", -7);
     window.location.reload();
 });
+
+
+$(document).scroll(function () {
+        if ($(document).scrollTop() >= $(".header").height()) {
+            $(".header_nav").css({
+                position: "fixed",
+                top: "0",
+                left: "0",
+                backgroundColor: "black"
+            });
+            $(".header_nav li").css("color", "#FFF");
+            $(".common_header").css("paddingBottom", $(".header").height());
+        } else {
+            $(".header_nav").css({
+                width: "100%",
+                height: "67px",
+                backgroundColor: "#ffffff",
+                position: "relative",
+                Zindex: "999"
+            });
+            $(".header_nav li").css("color", "#000");
+            $(".common_header").css("paddingBottom", 0);
+        }
+    }
+);
+
+
 

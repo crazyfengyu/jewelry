@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../../css/login/retry.css">
     <link rel="stylesheet" href="../../css/common/header.css"/>
     <link rel="stylesheet" href="../../css/common/footer.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico"/>
 </head>
 
 <body>
@@ -25,25 +26,7 @@
 <div class="common_footer"></div>
 </body>
 <script src="../../js/jquery/jquery-1.10.1.min.js"></script>
-<script src="../../js/common/config.js">
-</script>
-<script>
-    //引入公共的头部和底部
-    $(".common_header").load("../common/header.html", function () {
-        $.getScript("../../js/common/header.js");
-    });
-    $(".common_footer").load("../common/footer.html");
-
-    //判断cookie中是否有提示信息
-    if (getCookie("tip")) {
-        $("#show_tip").html(getCookie("tip"));
-    }
-
-    //点击返回按钮，跳转回之前的页面
-    $("#retry_back").click(function () {
-        setCookie("tip", "", -7);
-        window.location.href = getCookie("backUrl");
-    })
-</script>
+<script src="../../js/common/config.js"></script>
+<script src="../../js/login/retry.js"></script>
 
 </html>

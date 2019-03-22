@@ -58,8 +58,12 @@ $width: 100%;
           width: 100px;
           text-align: center;
           img {
-            margin-top: 70px;
+            vertical-align: middle;
             cursor: pointer;
+          }
+          input {
+            vertical-align: middle;
+            margin-right: 10px;
           }
         }
         .second_li {
@@ -112,7 +116,9 @@ $width: 100%;
           cursor: pointer;
           height: 50px;
           outline: none;
+          margin-right: 100px;
         }
+
       }
       .second_li {
         width: 280px;
@@ -192,7 +198,7 @@ $width: 100%;
       input {
         width: 120px;
         @include vertical(28px);
-        border:1px solid #000000;
+        border: 1px solid #000000;
         margin-bottom: 10px;
         padding-left: 10px;
       }
@@ -200,7 +206,7 @@ $width: 100%;
         width: 130px;
         @include vertical(30px);
         text-align: center;
-        border:0;
+        border: 0;
         outline: none;
         background-color: #000000;
         color: #FFFFFF;

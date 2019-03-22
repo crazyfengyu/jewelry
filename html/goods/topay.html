@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../css/common/footer.css"/>
     <link rel="stylesheet" href="../../css/common/page.css"/>
     <link rel="stylesheet" href="../../css/goods/topay.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
 </head>
 <body>
 <div class="common_header"></div>
@@ -25,16 +26,6 @@
 </body>
 <script src="../../js/jquery/jquery-1.10.1.min.js"></script>
 <script src="../../js/common/config.js"></script>
-<script>
-    $(".common_header").load("../common/header.html", function () {
-        $.getScript("../../js/common/header.js");
-    });
-
-    $(".common_footer").load("../common/footer.html");
-
-    var price = window.location.search.split("=")[1];
-
-    $("#price").html(price + ".00元");
-</script>
+<script src="../../js/goods/topay.js"></script>
 </html>
 

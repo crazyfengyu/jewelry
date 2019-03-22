@@ -70,7 +70,7 @@ Page.prototype.bindData = function () {
             that.bindData();
         };
     }
-    this.target.style.width = li.offsetWidth*end + this.prevBtn.offsetWidth * 2 + end * 10 + "px";
+
     this.bindEvent();
     if (this.pageIndex == maxPageIndex) {
         this.nextBtn.onclick = null;

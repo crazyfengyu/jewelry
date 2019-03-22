@@ -7,24 +7,95 @@
     <link rel="stylesheet" href="../../css/common/header.css"/>
     <link rel="stylesheet" href="../../css/common/footer.css"/>
     <link rel="stylesheet" href="../../css/common/page.css"/>
-    <link rel="stylesheet" href="../../css/goods/topay.css"/>
+    <link rel="stylesheet" href="../../css/login/information.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
 </head>
 <body>
 <div class="common_header"></div>
 
+<div class="information_body">
+    <div class="w">
+        <div class="information_body_left">
+            <div class="username">
+                <img src="../../images/tx.png" alt=""/>
+
+                <p>峰羽</p>
+
+                <p>尊贵用户</p>
+            </div>
+            <ul class="user_select">
+                <li class="selected">
+                    <p>我的订单</p>
+                </li>
+                <li>
+                    <p>个人信息</p>
+                </li>
+                <li>
+                    <p>修改密码</p>
+                </li>
+                <li>
+                    <p class="user_select_exit">退出登录</p>
+                </li>
+            </ul>
+        </div>
+        <div class="information_body_right">
+            <ul class="series">
+                <li class="selected first_li">
+                    <dl class="clearfix">
+                        <dd>商品</dd>
+                        <dd>订单金额</dd>
+                        <dd>数量</dd>
+                        <dd>订单状态</dd>
+                        <dd>操作</dd>
+                    </dl>
+                    <div class="xq">
+                        <!--<ul>-->
+                        <!--<li class="second_li">-->
+                        <!--<img src="../../images/goods/adjy.png" alt="" class="goodsimg fl"/>-->
+
+                        <!--<p class="fl">遇见信服</p>-->
+                        <!--</li>-->
+                        <!--<li class="three_li">-->
+                        <!--<p>定制砖石</p>-->
+                        <!--</li>-->
+                        <!--<li class="four_li">-->
+                        <!--<span>12</span>-->
+                        <!--</li>-->
+                        <!--<li class="five_li">-->
+                        <!--<p>8900</p>-->
+                        <!--</li>-->
+                        <!--<li class="six_li">-->
+                        <!--<p>8900</p>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                    </div>
+                </li>
+                <li>
+
+                </li>
+                <li class="three_li">
+                    <div class="g">
+                        <p class="xg">修改密码</p>
+                        <label for="newuserpwd1">请输入新密码:</label>
+                        <input type="password" id="newuserpwd1"/> <br/>
+                        <label for="newuserpwd2">请输入新密码:</label>
+                        <input type="password" id="newuserpwd2"/> <br/>
+                        <button id="replace">确认修改</button>
+                    </div>
+                    <div class="t">
+                        <h3>修改成功</h3>
+                    </div>
+                </li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+</div>
 
 <div class="common_footer"></div>
 </body>
 <script src="../../js/jquery/jquery-1.10.1.min.js"></script>
 <script src="../../js/common/config.js"></script>
-<script>
-    $(".common_header").load("../common/header.html", function () {
-        $.getScript("../../js/common/header.js");
-    });
-
-    $(".common_footer").load("../common/footer.html");
-
-
-</script>
+<script src="../../js/login/information.js"></script>
 </html>
 

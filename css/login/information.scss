@@ -1,0 +1,187 @@
+$width: 100%;
+
+@mixin vertical($value) {
+  height: $value;
+  line-height: $value;
+}
+
+.information_body {
+  background-color: #f0f0f0;
+  width: $width;
+  height: 700px;
+  .w {
+    position: relative;
+    .information_body_left {
+      width: 213px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: 40px auto 0;
+      background-color: #fff;
+      .username {
+        height: 235px;
+        border-bottom: 1px solid #CCCCCC;
+        background-color: #fff;
+        text-align: center;
+        img {
+          width: 80px;
+          height: 80px;
+          margin-top: 30px;
+        }
+
+        p {
+          @include vertical(27px);
+        }
+      }
+      .user_select {
+        text-align: center;
+        background-color: #fff;
+        li {
+          font-size: 14px;
+          @include vertical(82px);
+          cursor: pointer;
+        }
+        .selected {
+          color: #CCCCCC;
+        }
+      }
+    }
+    .information_body_right {
+      position: absolute;
+      left: 240px;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      margin: 40px auto 0;
+      height: 646px;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      .series {
+        li {
+          width: $width;
+          height: 646px;
+          background-color: #f0f0f0;
+          display: none;
+        }
+        .first_li {
+          dl {
+            width: $width;
+            dd {
+              width: $width/5;
+              text-align: center;
+              @include vertical(50px);
+              background-color: #000;
+              color: #FFFFFF;
+              float: left;
+            }
+          }
+          .xq {
+            background-color: #fff;
+            margin-top: 20px;
+            width: $width;
+            text-align: center;
+            height: 145px;
+            border-bottom: 1px solid #CCCCCC;
+            li {
+              width: 160px;
+              text-align: center;
+              float: left;
+              @include vertical(145px);
+              background-color: #fff;
+              display: block;
+              .goodsimg {
+                width: 147px;
+                height: 147px;
+              }
+              p {
+                font-size: 14px;
+                background-color: #fff;
+                color: #000;
+                @include vertical(145px);
+              }
+            }
+            .second_li {
+              width: 300px;
+              cursor: pointer;
+            }
+
+            .four_li {
+              font-size: 0;
+              span {
+                display: inline-block;
+                vertical-align: middle;
+                width: 40px;
+                height: 18px;
+                font-size: 16px;
+                @include vertical(18px);
+              }
+            }
+          }
+        }
+        .three_li {
+          background-color: #fff;
+          text-align: center;
+          p {
+            font-size: 35px;
+            color: #CCCCCC;
+          }
+          .xg {
+            padding: 50px;
+          }
+          label {
+            width: 150px;
+            text-align: center;
+          }
+          input {
+            width: 300px;
+            @include vertical(50px);
+            padding-left: 20px;
+            border: 1px solid #CCCCCC;
+            margin-bottom: 20px;
+            font-size: 25px;
+          }
+
+          .t {
+            padding-top: 130px;
+            font-size: 30px;
+            @include vertical(100px);
+            display: none;
+          }
+
+          #replace {
+            width: 130px;
+            @include vertical(35px);
+            color: #FFFFFF;
+            background-color: #000000;
+            text-align: center;
+            border: 0;
+          }
+
+        }
+        .six_li {
+          a {
+            background-color: #000000;
+            display: inline-block;
+            width: 60px;
+            @include vertical(30px);
+            color: #FFFFFF;
+            margin-right: 5px;
+          }
+          button {
+            background-color: #000000;
+            display: inline-block;
+            width: 60px;
+            @include vertical(30px);
+            color: #FFFFFF;
+            border: 0;
+            font-size: 12px;
+          }
+        }
+        .selected {
+          display: block;
+        }
+      }
+    }
+  }
+}

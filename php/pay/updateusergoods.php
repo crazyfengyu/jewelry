@@ -3,10 +3,11 @@
     @require_once("../config.php");
 
     //获取数据id
-    $id = $_GET["userid"];
+    $id = $_GET["id"];
+    $type = $_GET["type"];
 
     //创建sql语句
-    $sql = "update usergoods set type = 2 where userid = $id";
+    $sql = "update usergoods set type = $type where id in ($id)";
 
     //执行sql语句
     mysql_query($sql);

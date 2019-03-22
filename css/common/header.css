@@ -22,7 +22,6 @@
     right: 0;
     margin: auto; }
   .header .header_ul {
-    width: 287px;
     margin-top: 22px;
     height: 45px;
     line-height: 45px; }
@@ -37,9 +36,9 @@
     .header .header_ul .header_one {
       background: url(../../images/common/header_user.png) no-repeat left center; }
     .header .header_ul .header_two {
-      background: url(../../images/common/header_phone.png) no-repeat left center; }
-    .header .header_ul .header_three {
       background: url(../../images/common/header_kf.png) no-repeat left center; }
+    .header .header_ul .header_three {
+      background: url(../../images/common/header_shoppingcar.png) no-repeat left center; }
 
 .header_nav {
   width: 100%;

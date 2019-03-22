@@ -22,6 +22,8 @@
         //创建sql插入数据
         $sql1 = "insert into useraddress (userid,username,userphone,useraddress,userzipcode,usertel) values ($userid,'$username',$userphone,'$useraddress',$userzipcode,$usertel)";
 
+            mysql_query($sql1);
+
             //获取上一条sql语句影响的行数
             $count = mysql_affected_rows();
 

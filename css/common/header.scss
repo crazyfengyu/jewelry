@@ -33,7 +33,7 @@ $width: 100%;
   }
 
   .header_ul {
-    width: 287px;
+    //width: 287px;
     margin-top: 22px;
     @include vertical(45px);
     li {
@@ -53,12 +53,12 @@ $width: 100%;
     }
 
     .header_two {
-      background: url(../../images/common/header_phone.png) no-repeat left center;
+      background: url(../../images/common/header_kf.png) no-repeat left center;
     }
 
   
     .header_three {
-      background: url(../../images/common/header_kf.png) no-repeat left center;
+      background: url(../../images/common/header_shoppingcar.png) no-repeat left center;
     }
   }
 }

@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/css/login/information.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods/b2000.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods/balance.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods/choiseries.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods/detail.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods/dolphinseries.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods/earbob.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods/fseries.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods/handseries.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods/meetseries.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods/moreseries.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods/necklace.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods/pay.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods/ring.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods/shoppingcar.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods/topay.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/goods/watch.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/index/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/login/information.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/login/login.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/login/register.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/login/retry.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php/goods/buygoods.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php/goods/delusergoods.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php/goods/detail.php" charset="UTF-8" />
@@ -29,8 +51,10 @@
     <file url="file://$PROJECT_DIR$/php/goods/selectgoodswatch.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php/index/selectuser.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php/login/login.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/login/updateuser.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php/pay/addaddress.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php/pay/selectaddress.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php/pay/updateusergoods.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/pay/updateusergoodstype.php" charset="UTF-8" />
   </component>
 </project>

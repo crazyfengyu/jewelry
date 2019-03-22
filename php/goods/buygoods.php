@@ -8,11 +8,23 @@
     $goodssize = $_GET["goodssize"];
     $goodsstyle = $_GET["goodsstyle"];
 
+    //查看该用户是否买过这件商品
+    $sql = "select * from usergoods where userid = $userid and goodsid = $goodsid and type = 1";
+
     //创建SQL语句
-    $sql = "insert into usergoods (userid,goodsid,num,goodssize,goodsstyle) values ($userid,$goodsid,1,'$goodssize','$goodsstyle')";
+
 
     //执行sql语句
-    mysql_query($sql);
+    $result = mysql_query($sql);
+
+
+    if(mysql_fetch_array($result)){
+        $sql1 = "update usergoods set num = num+1 where userid = $userid and goodsid = $goodsid";
+    }else{
+        $sql1 = "insert into usergoods (userid,goodsid,num,goodssize,goodsstyle) values ($userid,$goodsid,1,'$goodssize','$goodsstyle')";
+    }
+
+    mysql_query($sql1);
 
     //获取上条sql语句受影响的行数
     $count = mysql_affected_rows();

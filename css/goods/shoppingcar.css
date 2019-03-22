@@ -43,8 +43,11 @@
       width: 100px;
       text-align: center; }
       .shoppingcar_body .w .shoppingcar_body_body ul .first_li img {
-        margin-top: 70px;
+        vertical-align: middle;
         cursor: pointer; }
+      .shoppingcar_body .w .shoppingcar_body_body ul .first_li input {
+        vertical-align: middle;
+        margin-right: 10px; }
     .shoppingcar_body .w .shoppingcar_body_body ul .second_li {
       width: 300px;
       cursor: pointer; }
@@ -86,7 +89,8 @@
         margin-left: 30px;
         cursor: pointer;
         height: 50px;
-        outline: none; }
+        outline: none;
+        margin-right: 100px; }
     .shoppingcar_body .w .shoppingcar_body_bottom .second_li {
       width: 280px;
       color: #000; }

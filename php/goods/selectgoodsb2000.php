@@ -9,7 +9,7 @@
     $price2 = $_GET["price2"];
 
     //创建sql语句
-    $sql = "SELECT * from goodsinfo WHERE goodsprice BETWEEN $price1 and $price2 limit $jumpData,$showData";
+    $sql = "SELECT * from goodsinfo WHERE goodsprice BETWEEN $price1 and $price2 ORDER BY goodsprice ASC limit $jumpData,$showData";
 
     //执行sql语句
     $result = mysql_query($sql);
