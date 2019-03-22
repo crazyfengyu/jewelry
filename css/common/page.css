@@ -8,7 +8,7 @@ li {
 }
 
 .box {
-    width: 700px;
+    text-align: center;
     height: 30px;
     margin: 20px auto;
 }
@@ -21,7 +21,9 @@ li {
     background-color: #000;
     border-radius: 20px;
     color: #FFFFFF;
-    float: left;
+    /*float: left;*/
+    display: inline-block;
+    vertical-align: middle;
     cursor: pointer;
     user-select: none;
 }
@@ -29,12 +31,16 @@ li {
 .page_content {
     overflow: hidden;
     height: 30px;
-    float: left;
+    /*float: left;*/
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .page_content li {
-    float: left;
+    /*float: left;*/
     width: 80px;
+    display: inline-block;
+    vertical-align: middle;
     height: 30px;
     text-align: center;
     line-height: 30px;

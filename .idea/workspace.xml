@@ -2,46 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34442c24-2a81-4551-84bc-08ffe9bfa976" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/pay/addaddress.php" afterPath="$PROJECT_DIR$/php/pay/addaddress.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/b2000.html" afterPath="$PROJECT_DIR$/html/goods/b2000.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/balance.html" afterPath="$PROJECT_DIR$/html/goods/balance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/goods/buygoods.php" afterPath="$PROJECT_DIR$/php/goods/buygoods.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/choiseries.html" afterPath="$PROJECT_DIR$/html/goods/choiseries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/detail.html" afterPath="$PROJECT_DIR$/html/goods/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/dolphinseries.html" afterPath="$PROJECT_DIR$/html/goods/dolphinseries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/earbob.html" afterPath="$PROJECT_DIR$/html/goods/earbob.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/fseries.html" afterPath="$PROJECT_DIR$/html/goods/fseries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/handseries.html" afterPath="$PROJECT_DIR$/html/goods/handseries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common/header.css.map" afterPath="$PROJECT_DIR$/css/common/header.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common/header.css" afterPath="$PROJECT_DIR$/css/common/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/common/header.html" afterPath="$PROJECT_DIR$/html/common/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common/header.js" afterPath="$PROJECT_DIR$/js/common/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common/header.scss" afterPath="$PROJECT_DIR$/css/common/header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index/index.css" afterPath="$PROJECT_DIR$/css/index/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index/index.scss" afterPath="$PROJECT_DIR$/css/index/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/login/information.html" afterPath="$PROJECT_DIR$/html/login/information.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/login/login.html" afterPath="$PROJECT_DIR$/html/login/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/meetseries.html" afterPath="$PROJECT_DIR$/html/goods/meetseries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/moreseries.html" afterPath="$PROJECT_DIR$/html/goods/moreseries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/necklace.html" afterPath="$PROJECT_DIR$/html/goods/necklace.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/login/login.js" afterPath="$PROJECT_DIR$/js/login/login.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common/page.css" afterPath="$PROJECT_DIR$/css/common/page.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common/page.js" afterPath="$PROJECT_DIR$/js/common/page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/pay.html" afterPath="$PROJECT_DIR$/html/goods/pay.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/login/register.html" afterPath="$PROJECT_DIR$/html/login/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/login/register.php" afterPath="$PROJECT_DIR$/php/login/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/login/retry.html" afterPath="$PROJECT_DIR$/html/login/retry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/ring.html" afterPath="$PROJECT_DIR$/html/goods/ring.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/goods/selectgoodsb2000.php" afterPath="$PROJECT_DIR$/php/goods/selectgoodsb2000.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/goods/shoppingcar.css.map" afterPath="$PROJECT_DIR$/css/goods/shoppingcar.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/goods/shoppingcar.css" afterPath="$PROJECT_DIR$/css/goods/shoppingcar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/shoppingcar.html" afterPath="$PROJECT_DIR$/html/goods/shoppingcar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/goods/shoppingcar.scss" afterPath="$PROJECT_DIR$/css/goods/shoppingcar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/topay.html" afterPath="$PROJECT_DIR$/html/goods/topay.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/pay/updateusergoods.php" afterPath="$PROJECT_DIR$/php/pay/updateusergoods.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/goods/watch.html" afterPath="$PROJECT_DIR$/html/goods/watch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/goods/shoppingcar.js" afterPath="$PROJECT_DIR$/js/goods/shoppingcar.js" />
     </list>
     <ignored path="jewelry.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,21 +35,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/common/page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27227724">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/common/header.js">
+      <file leaf-file-name="shoppingcar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/goods/shoppingcar.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+              <caret line="291" column="2" selection-start-line="291" selection-start-column="2" selection-end-line="291" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+                <element signature="n#!!block;n#getData#0" expanded="false" />
+                <element signature="n#!!block;n#showSumPrice#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/common/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.18316832">
+              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/login/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/common/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/login/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.785714">
+              <caret line="38" column="54" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -145,7 +154,6 @@
         <option value="$PROJECT_DIR$/js/goods/watch.js" />
         <option value="$PROJECT_DIR$/html/goods/watch.html" />
         <option value="$PROJECT_DIR$/html/login/information.html" />
-        <option value="$PROJECT_DIR$/js/login/login.js" />
         <option value="$PROJECT_DIR$/html/login/register.html" />
         <option value="$PROJECT_DIR$/js/login/retry.js" />
         <option value="$PROJECT_DIR$/html/login/retry.html" />
@@ -168,10 +176,11 @@
         <option value="$PROJECT_DIR$/js/goods/balance.js" />
         <option value="$PROJECT_DIR$/css/goods/shoppingcar.scss" />
         <option value="$PROJECT_DIR$/html/goods/shoppingcar.html" />
-        <option value="$PROJECT_DIR$/js/goods/shoppingcar.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/common/header.js" />
         <option value="$PROJECT_DIR$/css/common/page.css" />
+        <option value="$PROJECT_DIR$/js/goods/shoppingcar.js" />
+        <option value="$PROJECT_DIR$/js/login/login.js" />
       </list>
     </option>
   </component>
@@ -419,6 +428,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jewelry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -519,7 +560,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22401172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -557,13 +598,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/goods/handseries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/goods/handseries.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.142857">
@@ -729,20 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/login/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/login/retry.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -768,6 +788,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -811,6 +834,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29372936">
           <caret line="154" column="33" selection-start-line="154" selection-start-column="33" selection-end-line="154" selection-end-column="33" />
+          <folding>
+            <element signature="e#3975#4385#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -901,21 +927,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/goods/shoppingcar.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="298" column="35" selection-start-line="298" selection-start-column="35" selection-end-line="298" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-            <element signature="n#!!block;n#getData#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="7.571429">
+          <caret line="468" column="10" selection-start-line="468" selection-start-column="10" selection-end-line="468" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/common/header.js">
+    <entry file="file://$PROJECT_DIR$/css/common/page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.785714">
+          <caret line="38" column="54" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -928,18 +959,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/common/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.571429">
-          <caret line="468" column="10" selection-start-line="468" selection-start-column="10" selection-end-line="468" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/common/page.css">
+    <entry file="file://$PROJECT_DIR$/js/login/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27227724">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/goods/shoppingcar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="291" column="2" selection-start-line="291" selection-start-column="2" selection-end-line="291" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+            <element signature="n#!!block;n#getData#0" expanded="false" />
+            <element signature="n#!!block;n#showSumPrice#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18316832">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
           <folding />
         </state>
       </provider>

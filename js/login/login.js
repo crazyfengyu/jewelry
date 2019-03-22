@@ -30,8 +30,12 @@ $("#login").click(function () {
 //封装函数，判断是否登录成功
 function successTip(obj) {
     if (obj["code"] == 1) {
-        setCookie("userid", obj["userid"], 7);
-        if (getCookie("backUrl")=="") {
+        if ($("#remember_me").prop("checked")) {
+            setCookie("userid", obj["userid"], 7);
+        } else {
+            setCookie("userid", obj["userid"]);
+        }
+        if (getCookie("backUrl") == "") {
             window.location.href = "../../index.html";
         } else {
             window.location.href = getCookie("backUrl");

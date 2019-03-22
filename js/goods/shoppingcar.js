@@ -300,6 +300,7 @@ $("#some_del").click(function () {
             $(this).parent().parent().remove();
         }
     });
+    showSumPrice();
     $.ajax({
         type: "get",
         url: "../../php/goods/delusergoods.php",
